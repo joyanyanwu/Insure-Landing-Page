@@ -1,0 +1,41 @@
+
+/* header*/
+.logo{
+
+	float: left;
+	line-height: 50px;
+	padding-left: 100px;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li{
+	float: right;
+	padding: 10px;
+}
+#section1{
+	background-color: hsl(256, 26%, 20%);
+	font-size: 16px;
+	color: white;
+}
+.btn{
+	color: white;
+}
+
+.images{
+	display:flex;
+}
+.section2__subtitle__body{
+	justify-content: center;
+}
+
+
+}
+.nav__ {
+	border:1px solid #555;
+	text-align: center;
+	padding: 5px;
