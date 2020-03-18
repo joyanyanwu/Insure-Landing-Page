@@ -1,40 +1,137 @@
-/* header*/
-.container header{
-	display: inline-flex;
-flex-direction: row;
+#nav{
+display: flex;
+justify-content: space-between;
 align-items: center;
+padding: 30px 10%;
+max-width: 100%;
+position:relative;
+}
+
+li, a{
+	font-family:'Karla', sans-serif;
+	font-weight: 700;
+	font-size:16px;
+	color:  hsl(273, 4%, 51%);
+	text-decoration: none;
+}
+
+}
+#logo{
+	cursor: pointer;
+	margin-right: auto;
+}
+.nav__links{
+	list-style: none;
+}
+	.nav__links li{
+	padding:0px 15px;
+	display: inline-block;
+}
+.nav__links li a{
+	transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover{
+	color: hsl(270, 9%, 17%);
+}
+
+#plans{
+	padding: 9px 25px;
+	background-color: (0,136,139);
+	border-style: solid;
+	border-color: hsl(270, 9%, 17%);
+	color: hsl(270, 9%, 17%);
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+	width: 100%;
 	}
 
-.logo{
-	display: block;
-	height: 8%;
-	padding-left: 100px;
+#plans:hover {
+	color:hsl(0, 0%, 98%);
+	background-color: hsl(270, 9%, 17%);
 }
 
-header{
-	max-width: 1048px;
+button{
+	padding: 9px 25px;
+	border: none;
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+
+}
+/*end of header*/
+#section1__content{
+margin: 0;
+padding: 0;
+background-color: hsl(256, 26%, 20%);
+color: hsl(0, 0%, 100%);
+padding-top: 150px;
+padding-left: 150px;
 }
 
-ul li{
-	display: inline-flex;
-	flex-flow: row wrap;
-	justify-content:  flex-end;
-	text-transform: uppercase;
+h1, p{
+	width: 550px;
+}
+
+h1{
+	font-family: 'DM Serif Display', serif;
+	font-size: 70px;
+	font-weight: 400px;
+	letter-spacing: 1px;
+	line-height: 80%;
+}
+
+p{
+	font-family:'Karla', sans-serif;
+	font-size: 16px;
+	font-weight: 400px;
+	color: hsl(0, 0%, 98%);
+	line-height: 150%;
+
+}
+
+.container1{
+	background-color: hsl(256, 26%, 20%);
+color: hsl(0, 0%, 100%);
+height: 620px;
+box-sizing: border-box;
+display: flex;
+
+
+}
+
+hr{
+	width: 150px;
+	padding-right:200px;
+}
+.pattern1{
+position: absolute;	
+padding-left: 1039px;
+padding-bottom: 250px;
+}
+
+.image-intro-desktop{
+	padding-top: 120px;
 	padding-left: 50px;
-	color: hsl(273, 4%, 51%);
-
 }
 
-/* Section 1 */
+#plans2{
 
-.container1 .section1 h1 .section1__content{
-	display: grid;
-	grid-template-columns: 50% auto;
-	grid-template-rows: auto;
-	grid-template-areas: "h1" "intro";
-
+	padding: 9px 25px;
+	background-color: (0,136,139);
+	border-style: solid;
+	border-color: hsl(0, 0%, 98%);
+	color: hsl(0, 0%, 98%);
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+	}
+#plans2:hover{
+	color: (0,136,139);
+	background-color: hsl(0, 0%, 98%);
 }
 
- h1 ..section__content{
-background-color:hsl(256, 26%, 20%);
+/*
+#section2{
+	display: flex;
+	flex-direction: column;
+	background-color: #FF5733;
 }
