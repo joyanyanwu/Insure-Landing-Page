@@ -15,7 +15,6 @@ li, a{
 	text-decoration: none;
 }
 
-}
 #logo{
 	cursor: pointer;
 	margin-right: auto;
@@ -59,7 +58,16 @@ button{
 
 }
 /*end of header*/
-#section1__content{
+.intro{
+	background-color: hsl(256, 26%, 20%);
+color: hsl(0, 0%, 100%);
+height: 620px;
+box-sizing: border-box;
+display: flex;
+position: relative;
+}
+
+#intro__content{
 margin: 0;
 padding: 0;
 background-color: hsl(256, 26%, 20%);
@@ -67,7 +75,9 @@ color: hsl(0, 0%, 100%);
 padding-top: 150px;
 padding-left: 150px;
 }
-
+hr{
+	align-items: flex-start;
+}
 h1, p{
 	width: 550px;
 }
@@ -78,6 +88,7 @@ h1{
 	font-weight: 400px;
 	letter-spacing: 1px;
 	line-height: 80%;
+	
 }
 
 p{
@@ -86,52 +97,60 @@ p{
 	font-weight: 400px;
 	color: hsl(0, 0%, 98%);
 	line-height: 150%;
-
-}
-
-.container1{
-	background-color: hsl(256, 26%, 20%);
-color: hsl(0, 0%, 100%);
-height: 620px;
-box-sizing: border-box;
-display: flex;
-
-
 }
 
 hr{
-	width: 150px;
-	padding-right:200px;
+	width: 30%;
+  padding: 0;
+	margin-left: 0;
 }
-.pattern1{
+
+.pattern-intro {
 position: absolute;	
-padding-left: 1039px;
-padding-bottom: 250px;
+border: solid 10px pink;
 }
 
-.image-intro-desktop{
-	padding-top: 120px;
-	padding-left: 50px;
+.family-picture{
+	position: absolute;
 }
 
-#plans2{
-
+#plans2{ 
 	padding: 9px 25px;
-	background-color: (0,136,139);
+	background-color: hsl(256, 26%, 20%);
 	border-style: solid;
 	border-color: hsl(0, 0%, 98%);
 	color: hsl(0, 0%, 98%);
 	cursor: pointer;
 	transition: all 0.3s ease 0s;
 	}
+
 #plans2:hover{
-	color: (0,136,139);
+	color: hsl(256, 26%, 20%);
 	background-color: hsl(0, 0%, 98%);
+}
+
+#pattern2{
+	position: absolute;
+	background-position-y: -50px;
 }
 
 /*
 #section2{
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	background-color: #FF5733;
+}
+
+h2{
+	font-family: 'DM Serif Display', serif;
+	font-size: 70px;
+	font-weight: 400px;
+	letter-spacing: 1px;
+	line-height: 80%;
+	padding: 350px 0px 20px 150px;
+	width: 550px;
+}
+
+#icon{
+	flex-direction: row;
 }
