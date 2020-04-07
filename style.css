@@ -72,21 +72,23 @@ margin: 0;
 padding: 0;
 background-color: hsl(256, 26%, 20%);
 color: hsl(0, 0%, 100%);
-padding-top: 150px;
+padding-top: 120px;
 padding-left: 150px;
 }
 hr{
 	align-items: flex-start;
 }
-h1, p{
+
+
+h1, p, h2{
 	width: 550px;
 }
 
-h1{
+h1, h2{
 	font-family: 'DM Serif Display', serif;
 	font-size: 70px;
 	font-weight: 400px;
-	letter-spacing: 1px;
+	letter-spacing: -1px;
 	line-height: 80%;
 	
 }
@@ -131,26 +133,96 @@ border: solid 10px pink;
 
 #pattern2{
 	position: absolute;
-	background-position-y: -50px;
 }
 
-/*
+
 #section2{
-	display: flex;
-	flex-direction: row;
-	background-color: #FF5733;
+	display: grid;
+	position: relative;
+	border: solid 5px blue;
 }
 
 h2{
 	font-family: 'DM Serif Display', serif;
 	font-size: 70px;
 	font-weight: 400px;
-	letter-spacing: 1px;
 	line-height: 80%;
-	padding: 350px 0px 20px 150px;
+	letter-spacing: -3px;
+	padding: 350px 150px 20px;
 	width: 550px;
+	color: hsl(270, 9%, 17%);
 }
 
-#icon{
-	flex-direction: row;
+
+#section2__content{
+	width: 60%;
+	display: grid;
+	grid-template-columns: 45% 45% 45%;
+    grid-gap: 3px;
+	padding: 40px 0px 0px 150px;
+	}
+h3{
+	font-family: 'DM Serif Display', serif;
+	font-size: 28px ;
+	font-weight: 700;
+	line-height: 80%;
+	letter-spacing: -1.7px;
+	color:hsl(270, 9%, 17%);
 }
+#icon{
+	padding-bottom: 15px;
+}
+	#s2__text{
+		width: 86%;
+		color: hsl(273, 4%, 51%);
+		font-weight: 400;
+	}
+
+	/*section 3*/
+
+	.section3{
+		border: solid;
+		border-color: brown;
+		border-width: 5px;
+		padding-top: 185px;
+	}
+	
+	#banner_text{
+		color:hsl(0, 0%, 98%) ;
+		padding: 5px 60px 0px 80px;
+	}
+	.banner{
+		position: relative;
+		display: grid;
+		overflow: hidden;
+		left:150px;
+		width: 1133px;
+		height: 245px;
+		position: relative;
+		background-color: hsl(256, 26%, 20%);
+		grid-template-columns: 75% 50% 50%;
+	}
+	
+	#btn_how_we_work{
+		font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+	color: hsl(273, 4%, 51%);
+	background-color: hsl(256, 26%, 20%) ;
+    text-decoration: none;
+	padding: 9px 25px;
+	
+		border-style: solid;
+    border-color: hsl(0, 0%, 98%);
+    color: hsl(0, 0%, 98%);
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    width: 105.094;
+	height: max-content;
+	width: max-content;
+	}
+
+		#pattern_how_we_work{
+			position: absolute;
+			right:-1px;
+		}
