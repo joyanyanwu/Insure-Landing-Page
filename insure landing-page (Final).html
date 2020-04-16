@@ -1,105 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head><link rel="stylesheet" href="normalize.css">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <Title> Insure</Title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-<div class="nav" id="nav">
-<!-- Navigation --> 
-<img src=".\images\logo.svg" alt="logo" id="logo">
-    <ul class="nav__links">
-  <li><a href="work.asp">HOW WE WORK</a></li>
-  <li><a href="Blog.asp">BLOG</a></li>
-  <li><a href="Account.asp">ACCOUNT</a></li>
-  <li><a class="cta" href="#" id="plans">VIEW PLANS </a></li>
-</ul>
-</div>
 
-<div class="intro">
-    <!--Section 1 // Humainze -->
+<head>
+    <link rel="stylesheet" href="normalize.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <Title> Insure</Title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="section_1.css">
+</head>
 
-    <img src=".\images\image-intro-desktop.jpg" alt="image-intro-desktop" id="intro-desktop" class="family-picture" style="left: 800px;top: 125px;">
-    <img src=".\images\bg-pattern-intro-right-desktop.svg" class="pattern-intro" style="left: 1070px;bottom: 70px;">
-    <img src=".\images\bg-pattern-intro-left-desktop.svg" alt="pattern2" id="pattern2" style="top: 450px;">
-    <div class="intro__content" id="intro__content">
-        <hr class="hr">
-     <h1> Humanizing <br>your insurance. </h1>
-        <p> Get your life insurance coverage easier and faster. We blend our expertise and technology to help you find the plan that’s right for you. Ensure you and your loved ones are protected. </p>
-        <br>
-        <a class="cta" href="#" id="plans2">
-            VIEW PLANS</a>
-      
-     </div>
-</div>
+<!-- Notes for Joy :)
+ Try and use specific css selectors (p.section1{}) if the element appears differently on the page, only use generalised selectors (p{}) if you can be sure that you want allll elements to look like that
 
-
-
-<div class="section2" id="section2">
-    <hr class="hr">
-    <h2> We're different</h2>
-
-<div class="section2__content" id="section2__content">
-
-    <div class="snappy">
-        <img src=".\images\icon-snappy-process.svg" alt="icon"  id="icon">
-    <h3> Snappy Process </h3>
-    <p class="section2__text" id="s2__text"> 
-     Our application process can be completed in minutes, not hours. Don't get stuck fulling in tedious forms.</p>
-    </div>
-
-<div class="affordable_prices">
-        <img src=".\images\icon-affordable-prices.svg" alt="icon" id="icon">
-            <h3> Affordable Prices</h3>
-                <p class="section2__text" id="s2__text"> We don't want you worrying about high monthly costs. Our prices may be low, but we still offer the best coverage possible.</p>
-    </div>
-
-<div class="people_first">
-                <img src=".\images\icon-people-first.svg" alt="icon" id="icon">
-                    <h3> People First</h3>
-                        <p class="section2__text" id="s2__text">  Our plans aren’t full of conditions and clauses to prevent payouts. We make sure you’re covered when you need it.</p>
-            </div>
-            
-            </div> <!--section2__content-->
-    </div> <!--section2 -->
-
-
-<div class="section3" id="section3">
-<div class="banner" id="banner">
-    
-<h2 class="banner_text" id="banner_text"> Find out more about how we work</h2>
-<a class="cta" href="#" id="btn_how_we_work">
-    How We Work</a>
-    <img src="images/bg-pattern-how-we-work-desktop.svg" alt="pattern" id="pattern_how_we_work">
-</div>
-</div> <!--section3-->  
+ Use classes (p.selection) instead of ids(p#selection) to label your elements, classes are enough right now
  
+ Organize yo CSS for your sanity! You'll thank yourself!!
 
-<!---
+ Look into selectors for short cuts to describing html elements you want to target for styling, e.g ul.nav_bar li,a{} selects alll the li's and a's that are inside the ul.navbar (don't forget to hover over to see how the computer is reading it)
+ learn more: https://www.w3schools.com/cssref/css_selectors.asp -->
 
+<body>
+    <div class="nav">
+        <!-- Navigation -->
+        <img src=".\images\logo.svg" alt="logo" id="logo">
+        <ul class="nav__links">
+            <li><a href="work.asp">HOW WE WORK</a></li>
+            <li><a href="Blog.asp">BLOG</a></li>
+            <li><a href="Account.asp">ACCOUNT</a></li>
+            <li><a class="cta" href="#" id="plans">VIEW PLANS </a></li>
+        </ul>
+    </div>
+
+    <div class="intro">
+        <!--Section 1 // Humainze -->
+        <div class="intro__content">
+            <hr class="short_hr">
+            <h1> Humanizing <br>your insurance. </h1>
+            <p> Get your life insurance coverage easier and faster. We blend our expertise and technology to help you
+                find the plan that’s right for you. Ensure you and your loved ones are protected. </p>
+            <br>
+            <a class="cta" href="#" id="plans2">
+                VIEW PLANS</a>
+
+        </div>
+        <img src=".\images\image-intro-desktop.jpg" alt="image-intro-desktop" id="intro-desktop" class="family-picture">
+        <img src=".\images\bg-pattern-intro-right-desktop.svg" class="pattern-intro1">
+        <img src=".\images\bg-pattern-intro-left-desktop.svg" alt="pattern2" class="pattern-intro2">
+
+    </div>
+
+    <!--section2__content-->
+    <div class="section2">
+        <hr>
+        <h2> We're different</h2>
+        <div class="section2__content" id="section2__content">
+
+            <div class="snappy">
+                <img src=".\images\icon-snappy-process.svg" alt="icon" id="icon">
+                <h3> Snappy Process </h3>
+                <p class="section2__text" id="s2__text">
+                    Our application process can be completed in minutes, not hours. Don't get stuck fulling in tedious
+                    forms.</p>
+            </div>
+
+            <div class="affordable_prices">
+                <img src=".\images\icon-affordable-prices.svg" alt="icon" id="icon">
+                <h3> Affordable Prices</h3>
+                <p class="section2__text" id="s2__text"> We don't want you worrying about high monthly costs. Our prices
+                    may be low, but we still offer the best coverage possible.</p>
+            </div>
+
+            <div class="people_first">
+                <img src=".\images\icon-people-first.svg" alt="icon" id="icon">
+                <h3> People First</h3>
+                <p class="section2__text" id="s2__text"> Our plans aren’t full of conditions and clauses to prevent
+                    payouts. We make sure you’re covered when you need it.</p>
+            </div>
+
+        </div>
+
+    </div>
+    <!--section3__content-->
+
+
+    <div class="section3" id="section3">
+        <div class="banner" id="banner">
+            <h2 class="banner_text" id="banner_text"> Find out more about how we work</h2>
+            <a class="cta" href="#" id="btn_how_we_work">
+                How We Work</a>
+            <img src="images/bg-pattern-how-we-work-desktop.svg" alt="pattern" id="pattern_how_we_work">
+        </div>
+    </div>
+
+
+
+    <div class="footer_main_div">
+
+        <div class="footer_social_icons">
+            <img src=".\images\logo.svg" alt="logo" id="footer_logo">
+            <ul>
+                <li> <a href="#" target="blank"><img src=".\images\icon-facebook.svg" alt="facebook_logo"
+                            id="icon_hover"> </a></li>
+                <li> <a href="#" target="blank"><img src=".\images\icon-twitter.svg" alt="twitter_logo"> </a></li>
+                <li> <a href="#" target="blank"><img src=".\images\icon-pinterest.svg" alt="pinterest_logo"> </a>
+                </li>
+                <li> <a href="#" target="blank"><img src=".\images\icon-instagram.svg" alt="instagram_logo"> </a>
+                </li>
+            </ul>
+        </div>
+        <hr>
+    </div>
+
+    <!-- <div class="footer_content">
+
+            <div class="footer_content_1">
+                <h4 class="footer_content_header"> OUR COMPANY </h4>
+                <ul>
+                    <li>HOW WE WORK</li>
+                    <li>WHY INSURE?</li>
+                    <li>VIEW PLANS</li>
+                    <li>REVIEWS</li>
+                </ul>
+            </div>
+
+            <div class="footer_content_2">
+                <h4 class="footer_content_header"> HELP ME </h4>
+                <ul>
+                    <li><a>FAQ</a></li>
+                    <li>TERMS OF USE</li>
+                    <li>PRIVACY POLICY</li>
+                    <li>COOKIES</li>
+                </ul>
+            </div>
+
+            <div class="footer_content_3">
+                <h4 class="footer_content_header"> CONTACT </h4>
+                <ul>
+                    <li>SALES</li>
+                    <li>SUPPORT</li>
+                    <li>LIVE CHAT</li>
+                </ul>
+            </div>
+
+            <div class="footer_content_4">
+                <h4 class="footer_content_header"> OTHERS </h4>
+                <ul>
+                    <li>CAREERS</li>
+                    <li>PRESS</li>
+                    <li>LISCENCES</li>
+                </ul>
+            </div>
+
+        </div> -->
+
+    </div>
+
+    <!--
+    <img src=".\images\logo.svg" alt="logo" id="footer_logo">  
+    <img src=".\images\icon-pintrest.svg" alt="pintrest_logo" id="pintrest_footer"> 
+    <img src=".\images\icon-instagram.svg" alt="instagram_logo" id="instagram_footer"> 
+    <img src=".\images\icon-facebook.svg" alt="facebook_logo" id="facebbok_footer"> 
+    <img src=".\images\icon-twitter.svg" alt="twitter_logo" id="twitter_footer"> 
+    <hr class="hr"> 
+    <p class="footer_title">OUR COMPANY</p>
+    <p>HOW WE WORK WHY INSURE? VIEW PLANS REVIEW</p>
 </div>
 
-<div class="people" id="people"></div>
 
-    <img src=".\images\icon-people-first.svg" alt="icon" id="icon">
-        <h3> Affordable Prices</h3>
-        <div class="section2__content"> 
-            <p> We don't want you worrying about high monthly costs. Out prices may be low, but we still offer the best coverage</p>
-</div>
-
-<div class="banner" id="banner">
-    <h1> Find out more about how we work</h1>
-    <button id="banner__button" type="button">HOW WE WORK </button>
-</div>
-</div> 
-
-    
-<div class="footer" id="footer">
-</div>
 -->
 
 
 </body>
+
 </html>

@@ -1,84 +1,26 @@
-#nav{
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 30px 10%;
-max-width: 100%;
-position:relative;
-}
 
-li, a{
-	font-family:'Karla', sans-serif;
-	font-weight: 700;
-	font-size:16px;
-	color:  hsl(273, 4%, 51%);
-	text-decoration: none;
-}
-
-#logo{
-	cursor: pointer;
-	margin-right: auto;
-}
-.nav__links{
-	list-style: none;
-}
-	.nav__links li{
-	padding:0px 15px;
-	display: inline-block;
-}
-.nav__links li a{
-	transition: all 0.3s ease 0s;
-}
-
-.nav__links li a:hover{
-	color: hsl(270, 9%, 17%);
-}
-
-#plans{
-	padding: 9px 25px;
-	background-color: (0,136,139);
-	border-style: solid;
-	border-color: hsl(270, 9%, 17%);
-	color: hsl(270, 9%, 17%);
-	cursor: pointer;
-	transition: all 0.3s ease 0s;
-	width: 100%;
-	}
-
-#plans:hover {
-	color:hsl(0, 0%, 98%);
-	background-color: hsl(270, 9%, 17%);
-}
-
-button{
-	padding: 9px 25px;
+hr {
 	border: none;
-	transition: all 0.3s ease 0s;
-	cursor: pointer;
-
-}
-/*end of header*/
-.intro{
-	background-color: hsl(256, 26%, 20%);
-color: hsl(0, 0%, 100%);
-height: 620px;
-box-sizing: border-box;
-display: flex;
-position: relative;
+	height: 1px;
+	/* Set the hr color */
+	color:orange; /* old IE */
+	background-color: orange; /* Modern Browsers */
 }
 
-#intro__content{
-margin: 0;
-padding: 0;
-background-color: hsl(256, 26%, 20%);
-color: hsl(0, 0%, 100%);
-padding-top: 120px;
-padding-left: 150px;
-}
-hr{
+/* .short_hr{
 	align-items: flex-start;
+	width: 30%;
+  padding: 0;
+	margin-left: 0;
 }
 
+.section1_hr{
+ color: white;
+}
+
+.section2_hr{
+	color: grey;
+ } */
 
 h1, p, h2{
 	width: 550px;
@@ -101,26 +43,16 @@ p{
 	line-height: 150%;
 }
 
-hr{
-	width: 30%;
-  padding: 0;
-	margin-left: 0;
-}
 
-.pattern-intro {
-position: absolute;	
-border: solid 10px pink;
-}
 
-.family-picture{
-	position: absolute;
-}
+
+
 
 #plans2{ 
 	padding: 9px 25px;
 	background-color: hsl(256, 26%, 20%);
-	border-style: solid;
-	border-color: hsl(0, 0%, 98%);
+	/* border-style: solid;
+	border-color: hsl(0, 0%, 98%); */
 	color: hsl(0, 0%, 98%);
 	cursor: pointer;
 	transition: all 0.3s ease 0s;
@@ -131,15 +63,12 @@ border: solid 10px pink;
 	background-color: hsl(0, 0%, 98%);
 }
 
-#pattern2{
-	position: absolute;
-}
 
 
-#section2{
+.section2{
 	display: grid;
 	position: relative;
-	border: solid 5px blue;
+	/* border: solid 5px blue; */
 }
 
 h2{
@@ -181,10 +110,11 @@ h3{
 	/*section 3*/
 
 	.section3{
-		border: solid;
-		border-color: brown;
-		border-width: 5px;
+		/* border: solid;
+		border-color: brown;*/
+		border-width: 5px; */
 		padding-top: 185px;
+		padding-bottom: 140px;
 	}
 	
 	#banner_text{
@@ -212,8 +142,8 @@ h3{
     text-decoration: none;
 	padding: 9px 25px;
 	
-		border-style: solid;
-    border-color: hsl(0, 0%, 98%);
+		/* border-style: solid;
+    border-color: hsl(0, 0%, 98%); */
     color: hsl(0, 0%, 98%);
     cursor: pointer;
     transition: all 0.3s ease 0s;
@@ -226,3 +156,68 @@ h3{
 			position: absolute;
 			right:-1px;
 		}
+
+		
+		/*footer*/
+
+		.footer_main_div{
+			width: 100%;
+			height: auto;
+			width: auto;
+			background-color: hsl(0, 0%, 98%);
+			display: flex;
+			align-items: center;
+		  }
+
+.footer_social_icons{
+	width: 100%;
+	height: auto;
+	padding: 0px;
+	/* border: solid; */
+	/*border-color: blueviolet;*/
+}
+#footer_logo{
+	padding-left: 150px;
+	display: inline-flex;
+}
+
+.footer_social_icons ul{
+	margin: 0px;
+	padding-left: 800px;
+	text-align: right;
+	display: inline-flex;
+
+}
+
+
+.footer_social_icons ul li{
+	width: 50px;
+	height: 50px;
+	margin: 10px 0;
+	list-style: none;
+}
+
+.footer_social_icons ul li:hover{
+	cursor: pointer;
+	color: hsl(256, 26%, 20%);
+}
+
+.footer_content{
+	font-family: 'Karla', sans-serif;
+    font-weight: 400;
+	font-size: 16px;
+	color:hsl(256, 26%, 20%); ;
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+padding:25px 0px 25px 150px;
+grid-gap: 10px;
+width: 100%;
+list-style-type: none;
+line-height: 36px;
+}
+
+.footer_content ul li:hover{
+	color::hsl(256, 26%, 20%); ; ;
+	text-decoration: underline;
+	cursor: pointer;
+}
