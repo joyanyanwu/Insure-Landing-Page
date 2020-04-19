@@ -16,6 +16,10 @@
   padding-left: 150px;
 }
 
+p.intro_text{
+        width: 48%;
+}
+
 .family-picture{
 	position: absolute;
 	left: 800px;

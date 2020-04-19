@@ -1,0 +1,27 @@
+.section3{
+    /* border: solid;
+    border-color: brown;*/
+    border-width: 5px; 
+    padding-bottom: 140px;
+}
+
+.banner_text{
+    color:hsl(0, 0%, 98%) ;
+    padding: 5px 60px 0px 80px;
+}
+.banner{
+    position: relative;
+    display: grid;
+    overflow: hidden;
+    left:150px;
+    width: 1133px;
+    height: 245px;
+    position: relative;
+    background-color: hsl(256, 26%, 20%);
+    grid-template-columns: 75% 50% 50%;
+}
+
+#pattern_how_we_work{
+position: absolute;
+right: 0px;
+}
