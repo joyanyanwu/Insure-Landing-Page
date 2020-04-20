@@ -9,7 +9,7 @@
 	display: grid;
 	grid-template-columns: 48% 48% 48%;
     grid-gap: 3px;
-	padding: 40px 0px 270px 150px;
+	padding: 40px 0px 212px 150px;
 }
     
 #icon{
@@ -29,6 +29,7 @@ p.section2__text{
     margin-left: 150px;
     position: relative;
     top: 322px;
+    color: blue;
 
         }
 

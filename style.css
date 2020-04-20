@@ -1,17 +1,15 @@
 
-hr {
-	border: none;
-	height: 1px;
-	/* Set the hr color */
-	color:orange; /* old IE */
-	background-color: orange; /* Modern Browsers */
-}
+
 
 .short_hr{
 	align-items: flex-start;
-	width: 30%;
+	width: 14%;
   padding: 0;
 	margin-left: 0;
+	border: none;
+	height: 1px;
+	color:white; 
+	background-color: white;
 }
 
 
@@ -41,11 +39,12 @@ p{
 #plans2{ 
 	padding: 9px 25px;
 	background-color: hsl(256, 26%, 20%);
-	/* border-style: solid;
-	border-color: hsl(0, 0%, 98%); */
+	border-style: solid;
+	border-color: hsl(0, 0%, 98%); 
 	color: hsl(0, 0%, 98%);
 	cursor: pointer;
 	transition: all 0.3s ease 0s;
+	width: 7.5rem;
 	}
 
 #plans2:hover{
@@ -62,7 +61,7 @@ h2{
 	line-height: 80%;
 	letter-spacing: -3px;
 	padding: 350px 150px 20px;
-	width: 550px;
+	width: 64%;
 	color: hsl(270, 9%, 17%);
 }
 

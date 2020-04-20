@@ -13,15 +13,22 @@
     position: relative;
     display: grid;
     overflow: hidden;
-    left:150px;
-    width: 1133px;
-    height: 245px;
-    position: relative;
+    left:10%;
+    width: 80%;
+    height: 251px;
     background-color: hsl(256, 26%, 20%);
-    grid-template-columns: 75% 50% 50%;
+    align-items: center;
 }
 
 #pattern_how_we_work{
 position: absolute;
 right: 0px;
+z-index: 1;
+}
+
+.section3 #plans2{
+    position: absolute;
+    z-index: 2;
+    left: 79%;
+
 }
