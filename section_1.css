@@ -39,3 +39,63 @@ p.intro_text{
 hr .section1_hr{
 color: white;
 }
+
+
+/* media queries*/
+
+@media only screen and (max-width: 375px) {
+  .family-picture{
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    width: 325px;
+  }    
+  
+  
+  .intro{
+display: inline-block;
+position: relative;
+min-height: 75px;  
+width: 100%;  
+    background-color: lightblue;
+    z-index: 1;
+    width: auto;
+  }
+
+  .intro__content{
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+    height: 600px;
+  }
+
+  h1{
+    width: 100%;
+    font-size: 50px;
+    padding-top: 80px;
+  }
+
+p.intro_text{
+text-align: center;
+width: 100%;
+position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    max-width: 316px;
+    ma
+}
+.intro_text .cta#plans2{
+  position: absolute;
+  top: 0x;
+}
+
+.pattern-intro1 {
+  right: 50;
+  top: 0;
+  left: 0;
+}
+
+.pattern-intro2{
+  overflow: hidden;
+}

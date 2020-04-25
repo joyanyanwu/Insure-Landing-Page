@@ -17,8 +17,8 @@
 }
 
 p.section2__text{
-    color: hsl(256, 26%, 20%);
-    font-weight: 400;
+    color: rgb(182, 182, 182);
+    font-weight: 500;
     width: 80%;
  }
 
@@ -33,4 +33,29 @@ p.section2__text{
 
         }
 
-        
+        @media only screen and (max-width: 375px) {
+        .section2{
+            width: 100%;
+            padding-top: 120px;
+        }
+
+        .section2__content {
+            width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 3px;
+    /* margin: -30px; */
+    justify-items: center;
+    padding: 0;
+        }
+
+        .snappy, .affordable_prices, .people_first {
+            text-align: center;
+            justify-content: center;
+            padding-bottom: 64px;
+        }
+        p.section2__text{
+            margin: 0;
+            width: 100%;
+            text-align: center;
+        }
