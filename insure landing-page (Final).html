@@ -5,9 +5,8 @@
     <link rel="stylesheet" href="normalize.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
     <Title> Insure</Title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="navbar.css">
@@ -16,15 +15,38 @@
     <link rel="stylesheet" href="section_3.css">
     <link rel="stylesheet" href="Footer.css">
 </head>
-
 <!-- Notes for Joy :)
- Try and use specific css selectors (p.section1{}) if the element appears differently on the page, only use generalised selectors (p{}) if you can be sure that you want allll elements to look like that
+ Tryali n-nuses scenter.section1{}) if the element appears differently on the page, only use generalised selectors (p{}) if you can be sure that you want allll elements to look like that
 
  Use classes (p.selection) instead of ids(p#selection) to label your elements, classes are enough right now
  
  Organize yo CSS for your sanity! You'll thank yourself!!
+x;
+z-inde: 1
+ 
 
- Look into selectors for short cuts to describing html elements you want to target for styling, e.g ul.nav_bar li,a{} selects alll the li's and a's that are inside the ul.navbar (don't forget to hover over to see how the computer is reading it)
+.section3 #plans2{
+    position: absolute;
+    z-index: 2;
+    left: 79%;
+
+} 
+
+@media only screen and (max-width: 375px) {
+.banner{
+    width: 309px;
+    height: 322px;
+    margin-right: 0px;
+    margin-left: 0px;
+    overflow: hidden;
+}
+
+#pattern_how_we_work{
+    right:0;
+}
+
+
+Look into selectors for short cuts to describing html elements you want to target for styling, e.g ul.nav_bar li,a{} selects alll the li's and a's that are inside the ul.navbar (don't forget to hover over to see how the computer is reading it)
  learn more: https://www.w3schools.com/cssref/css_selectors.asp -->
 
 <body>
@@ -41,26 +63,28 @@
 
     <div class="intro">
         <!--Section 1 // Humainze -->
-        <div class="intro__content">
+        <div class="content">
             <hr class="short_hr">
             <h1> Humanizing <br>your insurance. </h1>
-            <p class="intro_text"> Get your life insurance coverage easier and faster. We blend our expertise and technology to help you
+            <p class="intro_text"> Get your life insurance coverage easier and faster. We blend our expertise and
+                technology to help you
                 find the plan that’s right for you. Ensure you and your loved ones are protected. </p>
-            <br>
-            <a class="cta" href="#" id="plans2">
-                VIEW PLANS</a>
+            <a class="cta plans2" href="#">
+           VIEW PLANS
+                </a>
+
 
         </div>
-        <img src=".\images\image-intro-desktop.jpg" alt="image-intro-desktop" id="intro-desktop" class="family-picture">
-        <img src=".\images\bg-pattern-intro-right-desktop.svg" class="pattern-intro1">
-        <img src=".\images\bg-pattern-intro-left-desktop.svg" alt="pattern2" class="pattern-intro2">
+        <!--<img src=".\images\bg-pattern-intro-right-desktop.svg" class="pattern-intro1">
+            <img src=".\images\bg-pattern-intro-left-desktop.svg" alt="pattern2" class="pattern-intro2"> -->
 
+        <img src=".\images\image-intro-desktop.jpg" alt="image-intro-desktop" id="intro-desktop" class="family-picture">
     </div>
 
-    <!--section2__content-->
+    <!--section2__content
     <div class="section2">
         <hr class="short_hr">
-        
+
         <h2> We're different</h2>
         <div class="section2__content">
 
@@ -89,29 +113,29 @@
         </div>
 
     </div>
-    
-    
-    
-    <!--section3__content-->
+
+
+
+    <!--section3__content
 
     <div class="section3">
         <div class="banner">
             <img src="images/bg-pattern-how-we-work-desktop.svg" alt="pattern" id="pattern_how_we_work">
             <h2 class="banner_text"> Find out more about how we work</h2>
-            
+
             <a class="cta" href="#" id="plans2">
-                HOW WE WORK</a> 
-            
+                HOW WE WORK</a>
+
         </div>
     </div>
 
 
 
-    <!--Footer-->
+    <!--Footer-
 
     <div class="footer_main_div">
         <img src=".\images\bg-pattern-footer-desktop.svg" id="footer_pattern">
-        
+
         <div class="footer_social_icons">
             <img src=".\images\logo.svg" alt="logo" id="footer_logo">
             <ul>
@@ -129,48 +153,48 @@
 
         <div class="footer_content">
 
-        <div class="footer_content_1">
-            <h4 class="footer_content_header"> OUR COMPANY </h4>
-            <ul>
-                <li>HOW WE WORK</li>
-                <li>WHY INSURE?</li>
-                <li>VIEW PLANS</li>
-                <li>REVIEWS</li>
-            </ul>
-        </div>
+            <div class="footer_content_1">
+                <h4 class="footer_content_header"> OUR COMPANY </h4>
+                <ul>
+                    <li>HOW WE WORK</li>
+                    <li>WHY INSURE?</li>
+                    <li>VIEW PLANS</li>
+                    <li>REVIEWS</li>
+                </ul>
+            </div>
 
-        <div class="footer_content_2">
-            <h4 class="footer_content_header"> HELP ME </h4>
-            <ul>
-                <li>FAQ</li>
-                <li>TERMS OF USE</li>
-                <li>PRIVACY POLICY</li>
-                <li>COOKIES</li>
-            </ul>
-        </div>
+            <div class="footer_content_2">
+                <h4 class="footer_content_header"> HELP ME </h4>
+                <ul>
+                    <li>FAQ</li>
+                    <li>TERMS OF USE</li>
+                    <li>PRIVACY POLICY</li>
+                    <li>COOKIES</li>
+                </ul>
+            </div>
 
-        <div class="footer_content_3">
-            <h4 class="footer_content_header"> CONTACT </h4>
-            <ul>
-                <li>SALES</li>
-                <li>SUPPORT</li>
-                <li>LIVE CHAT</li>
-            </ul>
-        </div>
+            <div class="footer_content_3">
+                <h4 class="footer_content_header"> CONTACT </h4>
+                <ul>
+                    <li>SALES</li>
+                    <li>SUPPORT</li>
+                    <li>LIVE CHAT</li>
+                </ul>
+            </div>
 
-        <div class="footer_content_4">
-            <h4 class="footer_content_header"> OTHERS </h4>
-            <ul>
-                <li>CAREERS</li>
-                <li>PRESS</li>
-                <li>LISCENCES</li>
-            </ul>
+            <div class="footer_content_4">
+                <h4 class="footer_content_header"> OTHERS </h4>
+                <ul>
+                    <li>CAREERS</li>
+                    <li>PRESS</li>
+                    <li>LISCENCES</li>
+                </ul>
+            </div>
+
         </div>
 
     </div>
-        
-    </div>
-    
+
 
     <!-- <div class="footer_content">
 

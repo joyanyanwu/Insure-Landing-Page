@@ -1,60 +1,52 @@
-
-
-
-.short_hr{
+.short_hr {
 	align-items: flex-start;
 	width: 14%;
-  padding: 0;
+	padding: 0;
 	margin-left: 0;
 	border: none;
 	height: 1px;
-	color:white; 
+	color: white;
 	background-color: white;
 }
 
-
-h1, h2{
-	width: 550px;
+h1, h2 {
+	/* width: 550px; */
 }
 
-h1, h2{
+h1, h2 {
 	font-family: 'DM Serif Display', serif;
 	font-size: 70px;
 	font-weight: 400px;
 	letter-spacing: -1px;
 	line-height: 80%;
-	
 }
 
-p{
-	font-family:'Karla', sans-serif;
+p {
+	font-family: 'Karla', sans-serif;
 	font-size: 16px;
 	font-weight: 400px;
 	line-height: 150%;
 }
 
-
-
-
-#plans2{ 
+.plans2 {
+	display:block !important;
 	padding: 9px 25px;
 	background-color: hsl(256, 26%, 20%);
 	border-style: solid;
-	border-color: hsl(0, 0%, 98%); 
+	border-color: hsl(0, 0%, 98%);
 	color: hsl(0, 0%, 98%);
 	cursor: pointer;
 	transition: all 0.3s ease 0s;
 	width: 7.5rem;
-	}
+	margin: auto;
+}
 
-#plans2:hover{
+.plans2:hover {
 	color: hsl(256, 26%, 20%);
 	background-color: hsl(0, 0%, 98%);
 }
 
-
-
-h2{
+h2 {
 	font-family: 'DM Serif Display', serif;
 	font-size: 70px;
 	font-weight: 400px;
@@ -65,29 +57,28 @@ h2{
 	color: hsl(270, 9%, 17%);
 }
 
-
-h3{
+h3 {
 	font-family: 'DM Serif Display', serif;
-	font-size: 28px ;
+	font-size: 28px;
 	font-weight: 700;
 	line-height: 80%;
 	letter-spacing: -1.7px;
-	color:hsl(270, 9%, 17%);
+	color: hsl(270, 9%, 17%);
 }
 
-
-@media only screen and (min-width: 375px){
-  .intro {
-	  display: block;
-	  width: 100%;
-	  padding: 5px;
-  }
+@media only screen and (min-width: 375px) {
+	/*.intro {
+		display: block;
+		width: 100%;
+		padding: 5px;
+	}
 }
-.section2{
+
+.section2 {
 	width: 100%;
 }
 
-h2{
+h2 {
 	font-size: 50px;
 	padding: 0px;
 	text-align: center;

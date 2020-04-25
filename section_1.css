@@ -1,101 +1,94 @@
-.intro{
+.intro {
   background-color: hsl(256, 26%, 20%);
   color: hsl(0, 0%, 100%);
-  height: 620px;
   box-sizing: border-box;
   display: flex;
-  position: relative;
+  position: static;
 }
 
-.intro__content{
+.content {
   margin: 0;
   padding: 0;
-  background-color: hsl(256, 26%, 20%);
   color: hsl(0, 0%, 100%);
   padding-top: 120px;
   padding-left: 150px;
 }
 
-p.intro_text{
-        width: 48%;
+p.intro_text {
+  width: 48%;
 }
 
-.family-picture{
-	position: absolute;
-	left: 800px;
-	top: 125px;
+.family-picture {
+  position: absolute;
+  left: 800px;
+  top: 125px;
 }
 
 .pattern-intro1 {
-  position: absolute;	
+  position: absolute;
   right: 0;
 }
 
-.pattern-intro2{
+.pattern-intro2 {
   position: absolute;
   top: 450px;
 }
-  
-hr .section1_hr{
-color: white;
-}
 
+hr .section1_hr {
+  color: white;
+}
 
 /* media queries*/
 
 @media only screen and (max-width: 375px) {
-  .family-picture{
-    z-index: 2;
-    position: absolute;
+  .family-picture {
+    position: static;
     left: 0;
-    width: 325px;
-  }    
-  
-  
-  .intro{
-display: inline-block;
-position: relative;
-min-height: 75px;  
-width: 100%;  
-    background-color: lightblue;
-    z-index: 1;
-    width: auto;
+    top: 0;
+    width: 100%;
+    order: 1;
   }
-
-  .intro__content{
+  .intro {
+    /* display: inline-block;
+    position: relative;
+    min-height: 75px;
+    width: 100%;
+    z-index: 1;
+    width: auto; */
+    display: flex;
+    flex-direction: column; 
+  }
+  .content {
     width: 100%;
     text-align: center;
-    padding: 0px;
-    height: 600px;
+    padding-top: 0;
+    padding-left: 0;
+    order: 2;
   }
-
-  h1{
-    width: 100%;
+  h1 {
     font-size: 50px;
     padding-top: 80px;
   }
-
-p.intro_text{
-text-align: center;
-width: 100%;
-position: absolute;
+  p.intro_text {
+    text-align: center;
+    width: 100%;
     margin: 0 auto;
     left: 0;
     right: 0;
     max-width: 316px;
-    ma
-}
-.intro_text .cta#plans2{
-  position: absolute;
-  top: 0x;
-}
+  }
 
-.pattern-intro1 {
-  right: 50;
-  top: 0;
-  left: 0;
-}
-
-.pattern-intro2{
-  overflow: hidden;
-}
+ 
+  /* .intro_text .cta#plans2 {
+    position: absolute;
+    top: 0x;
+  } */
+  /*
+  .pattern-intro1 {
+    right: 50;
+    top: 0;
+    left: 0;
+  }
+  .pattern-intro2 {
+    overflow: hidden;
+  } */

@@ -47,3 +47,26 @@ z-index: 1;
 }
 
 
+
+
+.section3 #plans2{
+    position: absolute;
+    z-index: 2;
+    left: 79%;
+
+} 
+
+@media only screen and (max-width: 375px) {
+.banner{
+    width: 309px;
+    height: 322px;
+    margin-right: 0px;
+    margin-left: 0px;
+    overflow: hidden;
+}
+
+#pattern_how_we_work{
+    right:0;
+}
+
+
