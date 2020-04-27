@@ -7,8 +7,7 @@
     position: relative;
   }
 
-.footer_social_icons{
-width: 100%;
+/*.footer_social_icons{
 height: auto;
 padding: 0px;
 padding-top: 47px;
@@ -17,21 +16,19 @@ position: relative;
 /* border: solid; */
 /*border-color: blueviolet;*/
 }
-#footer_logo{
+.footer_logo{
 padding-left: 150px;
 display: inline-flex;
 }
 
-.footer_social_icons ul{
+/*
+.social_icon{
 margin: 0px;
-padding-left: 800px;
 text-align: right;
-display: inline-flex;
-
 }
 
 
-.footer_social_icons ul li{
+.social_icon ul li{
 width: 50px;
 height: 50px;
 margin: 10px 0;
@@ -43,7 +40,8 @@ cursor: pointer;
 color: hsl(256, 26%, 20%);
 }
 
-.long_hr{
+
+.footer_hr{
 width:80%;
 line-height: 1px;
 
@@ -51,7 +49,7 @@ line-height: 1px;
 
 /*footer links*/
 
-.footer_content{
+.footer_links{
 font-family: 'Karla', sans-serif;
 font-weight: 700;
 font-size: 0.9rem;
@@ -60,7 +58,7 @@ display: flex;
 list-style-type: none;
 line-height: 36px;
 justify-content: space-evenly;
-padding-right: 15rem;
+/*padding-right: 15rem; */
 letter-spacing: 1.5px;
 position: relative;
 z-index: 2;
@@ -78,7 +76,7 @@ z-index: 1;
 color: hsl(273, 4%, 51%);
 }
 
-.footer_content ul li:hover{
+.footer_links ul li:hover{
 color: hsl(256, 26%, 20%);
 text-decoration: underline;
 cursor: pointer;
@@ -92,4 +90,63 @@ padding: 0px;
 @media only screen and (max-width: 375px) {
   .footer_main_div{
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
   }
+
+  .footer_logo{
+    padding-left:0;
+    margin-top: 22%;
+   margin-bottom: 4%;
+   z-index: 2;
+  }
+
+  .footer_main_div ul{
+    list-style-type: none;
+    padding-left:  0;
+    text-align: center;
+    cursor: pointer;
+  }
+
+ .footer_main_div ul li{
+   padding: 7px;
+ }
+
+ ul.social_icons{
+  display: inline-flex;
+  padding-bottom: 3%;
+  z-index: 1;
+}
+
+
+.footer_hr{
+  background-color: red;
+  width: 80%;
+}
+
+ .footer_content1, .footer_content_header{
+   text-align: center;
+   flex-direction: column;
+   padding-right: 0;
+ }
+
+ .footer_content_header{
+   padding-bottom: 7%;
+ }
+ .footer_links{
+   width: 100%;
+   display: grid;
+   grid-template-columns: 100%;
+   grid-gap: 0px;
+   justify-items: center;
+   padding: 0;
+   padding-top: 5%;
+   line-height: 104%;
+ }
+
+ .pattern-footer-mobile{
+position: absolute;
+top: 0;
+ }
