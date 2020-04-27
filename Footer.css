@@ -89,3 +89,7 @@ list-style-type: none;
 padding: 0px;
 }
 
+@media only screen and (max-width: 375px) {
+  .footer_main_div{
+    width: 100%;
+  }

@@ -20,53 +20,63 @@
     align-items: center;
 }
 
-#pattern_how_we_work{
+#pattern_how_we_work-desktop{
 position: absolute;
 right: 0px;
 z-index: 1;
 }
 
 .section3 #plans2{
-    position: absolute;
     z-index: 2;
     left: 79%;
 
 } 
 
 @media only screen and (max-width: 375px) {
-.banner{
-    width: 309px;
-    height: 322px;
-    margin-right: 0px;
-    margin-left: 0px;
-    overflow: hidden;
+.section3{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
 }
 
-#pattern_how_we_work{
-    right:0;
+    .banner{
+        margin-right: 0px;
+        margin-left: 0px;
+        left: 0;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        width: 88%;
+        padding-top: 33px;
+    padding-bottom: 66px;
 }
 
-
-
-
-.section3 #plans2{
-    position: absolute;
-    z-index: 2;
-    left: 79%;
-
-} 
-
-@media only screen and (max-width: 375px) {
-.banner{
-    width: 309px;
-    height: 322px;
-    margin-right: 0px;
-    margin-left: 0px;
-    overflow: hidden;
-}
-
-#pattern_how_we_work{
-    right:0;
+#pattern_how_we_work-desktop{
+    display: none;
 }
 
 
+.section3 .cta.plans2{
+margin: 0;
+}
+  
+
+.banner_text{
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    line-height: 2rem;
+    letter-spacing: -1px;
+    FONT-WEIGHT: 600;
+    width: 74%;
+    padding-bottom: 48px;
+    padding-top: 42px;
+    line-height: 2.5rem;
+z-index: 2;
+}
+
+#pattern_how_we_work-mobile{
+right: 0;
+position: absolute;
+}
