@@ -59,13 +59,14 @@ z-index: 1;
 
 .section3 .cta.plans2{
 margin: 0;
+width: 8.5rem;
 }
   
 
 .banner_text{
     margin: 0;
     padding: 0;
-    font-size: 40px;
+    font-size: 40px;2
     line-height: 2rem;
     letter-spacing: -1px;
     FONT-WEIGHT: 600;
@@ -80,3 +81,4 @@ z-index: 2;
 right: 0;
 position: absolute;
 }
+

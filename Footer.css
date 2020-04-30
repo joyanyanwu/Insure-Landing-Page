@@ -15,7 +15,7 @@ z-index: 2;
 position: relative;
 /* border: solid; */
 /*border-color: blueviolet;*/
-}
+
 .footer_logo{
 padding-left: 150px;
 display: inline-flex;
@@ -148,5 +148,4 @@ padding: 0px;
 
  .pattern-footer-mobile{
 position: absolute;
-top: 0;
- }
+top: 0; }
