@@ -9,13 +9,14 @@
 	background-color: white;
 }
 
-
+h1{
+	font-weight: 400;
+}
 
 h1, h2 {
 	font-family: 'DM Serif Display', serif;
 	font-size: 70px;
-	font-weight: 400px;
-	letter-spacing: -1px;
+	letter-spacing: 0px;
 	line-height: 80%;
 }
 
@@ -39,6 +40,7 @@ p {
 	font-family: 'Karla', sans-serif;
 	text-decoration: none;
 	text-align: center;
+	font-weight: 600;
 }
 
 .plans2:hover {
@@ -46,23 +48,13 @@ p {
 	background-color: hsl(0, 0%, 98%);
 }
 
-h2 {
-	font-family: 'DM Serif Display', serif;
-	font-size: 70px;
-	font-weight: 400px;
-	line-height: 80%;
-	letter-spacing: -3px;
-	padding: 350px 150px 20px;
-	width: 64%;
-	color: hsl(270, 9%, 17%);
-}
 
 h3 {
 	font-family: 'DM Serif Display', serif;
 	font-size: 28px;
-	font-weight: 700;
+	font-weight: 600;
 	line-height: 80%;
-	letter-spacing: -1.7px;
+	letter-spacing: -0.7px;
 	color: hsl(270, 9%, 17%);
 }
 

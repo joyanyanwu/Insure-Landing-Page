@@ -81,10 +81,12 @@ hr .section1_hr {
     order: 2;
     position: relative;
     margin: 0px;
+    height: 550px;
   }
   h1 {
-    font-size: 50px;
+    font-size: 48px;
     padding-top: 80px;
+    z-index: 2;
   }
   p.intro_text {
     text-align: center;
@@ -113,6 +115,7 @@ display: none;
   position: absolute;
   top:0;
   left: 0;
+  z-index: 1;
  }
 
  .content .cta.plans2 {

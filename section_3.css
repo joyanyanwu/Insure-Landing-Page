@@ -9,10 +9,10 @@
     color: hsl(0, 0%, 98%);
     text-align: left;
     padding-left: 80px;
-    width: 40%;
+    width: 46%;
     line-height: 3.9rem;
     font-size: 60px;
-    font-weight: 600;
+    font-weight: 400;
     
 }
 .banner{
@@ -21,7 +21,7 @@
     overflow: hidden;
     left:10%;
     width: 80%;
-    height: 219px;
+    height: 251px;
     background-color: hsl(256, 26%, 20%);
     align-items: center;
 }
@@ -73,7 +73,7 @@ z-index: 1;
     width: -2%;
     /* line-height: 3.9rem; */
     font-size: 35px;
-    width: 78%;
+    width: 79%;
     justify-content: center;
     padding: 0;
     line-height: 1.1;
