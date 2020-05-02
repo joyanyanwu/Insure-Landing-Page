@@ -1,19 +1,21 @@
 .nav{
   align-items: baseline;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .nav_links{
-text-align: right;
 line-height: 60px;
 line-height: 70px 0;
 margin: 0;
   list-style-type: none;
   display: inline-flex;
-  text-align: right;
-  
-
+  padding-right: 5%;
 }
-
+.nav_links li{
+  right:0;
+}
 .nav_links ul{
   margin: 0;
 }
@@ -29,9 +31,19 @@ margin: 0;
 #plans{
   border-style: solid;
   border-color: hsl(256, 26%, 20%);
+  background-color: white;
   padding: 9px 25px;
   border-width: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
 }
+
+#plans:hover{
+  background-color: hsl(256, 26%, 20%); ;
+  color: white;
+}
+
+
 
 .logo{
  padding: 15px 0 0 150px;
@@ -84,6 +96,7 @@ right: 20px;
   display: none;
   background-color: hsl(256, 26%, 20%) ;
 }
+
 
 .nav_links li a{
   display: block;

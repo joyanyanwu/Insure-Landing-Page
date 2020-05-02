@@ -5,17 +5,23 @@
     padding-bottom: 140px;
 }
 
-.banner_text{
-    color:hsl(0, 0%, 98%) ;
-    padding: 5px 60px 0px 80px;
+.section3 .banner_text{
+    color: hsl(0, 0%, 98%);
+    text-align: left;
+    padding-left: 80px;
+    width: 40%;
+    line-height: 3.9rem;
+    font-size: 60px;
+    font-weight: 600;
+    
 }
 .banner{
     position: relative;
-    display: grid;
+    display: flex;
     overflow: hidden;
     left:10%;
     width: 80%;
-    height: 251px;
+    height: 219px;
     background-color: hsl(256, 26%, 20%);
     align-items: center;
 }
@@ -26,9 +32,15 @@ right: 0px;
 z-index: 1;
 }
 
-.section3 #plans2{
+#pattern_how_we_work-mobile{
+    display: none;
+}
+
+
+.section3 .cta.plans2{
     z-index: 2;
-    left: 79%;
+    right: 80px;
+    position: absolute;
 
 } 
 
@@ -50,16 +62,40 @@ z-index: 1;
         width: 88%;
         padding-top: 33px;
     padding-bottom: 66px;
+    height: 270px;
 }
 
+.section3 .banner_text{
+    margin-top: 38px;
+    color: hsl(0, 0%, 98%);
+    text-align: center;
+    /* padding-left: 80px; */
+    width: -2%;
+    /* line-height: 3.9rem; */
+    font-size: 35px;
+    width: 78%;
+    justify-content: center;
+    padding: 0;
+    line-height: 1.1;
+    font-size: 44px;
+    align-items: center;
+}
+
+#pattern_how_we_work-mobile{
+    display: block;
+    top:0;
+}
 #pattern_how_we_work-desktop{
     display: none;
 }
 
 
 .section3 .cta.plans2{
-margin: 0;
-width: 8.5rem;
+    margin: 0;
+    width: 8.5rem;
+    /* padding-top: 6%; */
+    margin-top: 13%;
+    position: static;
 }
   
 

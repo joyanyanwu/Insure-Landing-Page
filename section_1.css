@@ -12,21 +12,33 @@
   color: hsl(0, 0%, 100%);
   padding-top: 120px;
   padding-left: 150px;
+  height: 500px;
 }
 
+.content h1{
+  margin-bottom: 37px;
+}
 p.intro_text {
-  width: 48%;
+  width: 42%;
+  margin-bottom: 40px;
+}
+
+.content .cta.plans2{
+  margin-left: 0;
 }
 
 .family-picture {
   position: absolute;
   left: 800px;
   top: 125px;
+  z-index: 1;
+  margin-top:69px
 }
 
 .desktop-intro-pattern1 {
   position: absolute;
   right: 0;
+  z-index: 2;
 }
 
 .desktop-intro-pattern2 {
@@ -38,7 +50,7 @@ p.intro_text {
 display: none;
 }
 
-.mobile-intro-pattern1{
+.mobile-intro-pattern2{
   display: none;
 }
 
@@ -55,6 +67,7 @@ hr .section1_hr {
     top: 0;
     width: 100%;
     order: 1;
+    margin: 0;
   }
   .intro {
     display: flex;
@@ -67,6 +80,7 @@ hr .section1_hr {
     padding-left: 0;
     order: 2;
     position: relative;
+    margin: 0px;
   }
   h1 {
     font-size: 50px;
@@ -101,6 +115,7 @@ display: none;
   left: 0;
  }
 
- .cta.plans2{
-   margin-bottom: 115px;
- }
+ .content .cta.plans2 {
+ margin-left: 97px;
+}
+

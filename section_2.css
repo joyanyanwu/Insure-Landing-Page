@@ -1,8 +1,17 @@
 .section2 {
     display: grid;
     position: relative;
+    margin-top: 21%;
     /* border: solid 5px blue; */
 }
+
+
+
+.section2 h1 {
+	
+	padding-left: 150px;	
+}
+
 
 .section2__content {
     width: 60%;
@@ -38,6 +47,12 @@ p.section2__text {
         width: 100%;
         padding-top: 120px;
         position: relative;
+    }
+
+    .section2 h1{
+        padding: 0;
+        text-align: center;
+        margin-bottom: 80px;
     }
     .section2__content {
         width: 100%;

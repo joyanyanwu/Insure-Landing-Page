@@ -9,9 +9,7 @@
 	background-color: white;
 }
 
-h1, h2 {
-	/* width: 550px; */
-}
+
 
 h1, h2 {
 	font-family: 'DM Serif Display', serif;
@@ -30,7 +28,7 @@ p {
 
 .plans2 {
 	display:block !important;
-	padding: 9px 25px;
+	padding: 9px 21px;
 	background-color: hsl(256, 26%, 20%);
 	border-style: solid;
 	border-color: hsl(0, 0%, 98%);
@@ -38,7 +36,6 @@ p {
 	cursor: pointer;
 	transition: all 0.3s ease 0s;
 	width: 7.5rem;
-	margin: auto;
 	font-family: 'Karla', sans-serif;
 	text-decoration: none;
 	text-align: center;
