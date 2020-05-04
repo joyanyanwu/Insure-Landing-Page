@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
     <Title> Insure</Title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="navbar.css">
@@ -16,56 +16,23 @@
     <link rel="stylesheet" href="section_3.css">
     <link rel="stylesheet" href="Footer.css">
 </head>
-<!-- Notes for Joy :)
- Tryali n-nuses scenter.section1{}) if the element appears differently on the page, only use generalised selectors (p{}) if you can be sure that you want allll elements to look like that
-
- Use classes (p.selection) instead of ids(p#selection) to label your elements, classes are enough right now
- 
- Organize yo CSS for your sanity! You'll thank yourself!!
-x;
-z-inde: 1
- 
-
-.section3 #plans2{
-    position: absolute;
-    z-index: 2;
-    left: 79%;
-
-} 
-
-@media only screen and (max-width: 375px) {
-.banner{
-    width: 309px;
-    height: 322px;
-    margin-right: 0px;
-    margin-left: 0px;
-    overflow: hidden;
-}
-
-#pattern_how_we_work{
-    right:0;
-}
-
-
-Look into selectors for short cuts to describing html elements you want to target for styling, e.g ul.nav_bar li,a{} selects alll the li's and a's that are inside the ul.navbar (don't forget to hover over to see how the computer is reading it)
- learn more: https://www.w3schools.com/cssref/css_selectors.asp -->
 
 <body>
     <div class="nav">
         <!-- Navigation -->
         <div class="responsive_nav">
-        <img src=".\images\logo.svg" alt="logo" class="logo">
-        <label for="toggle">&#9776;</label> </div>
-            <input type="checkbox" id="toggle"/>
-        
-            <ul class="nav_links">
-                <img src=".\images\bg-pattern-mobile-nav.svg" alt="mobile-nav-pattern" class="mobile-nav-pattern">
+            <img src=".\images\logo.svg" alt="logo" class="logo">
+            <label for="toggle">&#9776;</label> </div>
+        <input type="checkbox" id="toggle" />
+
+        <ul class="nav_links">
+            <img src=".\images\bg-pattern-mobile-nav.svg" alt="mobile-nav-pattern" class="mobile-nav-pattern">
             <li><a href="work.asp">HOW WE WORK</a></li>
             <li><a href="Blog.asp">BLOG</a></li>
             <li><a href="Account.asp"><span>ACCOUNT</span></a></li>
             <li><a class="cta" href="#" id="plans">VIEW PLANS </a></li>
         </ul>
-        
+
     </div>
     </div>
 
@@ -81,19 +48,21 @@ Look into selectors for short cuts to describing html elements you want to targe
                 VIEW PLANS
             </a>
 
-            <img src=".\images\bg-pattern-intro-left-mobile.svg" alt="mobile-intro-pattern" class="mobile-intro-pattern1">
+            <img src=".\images\bg-pattern-intro-left-mobile.svg" alt="mobile-intro-pattern"
+                class="mobile-intro-pattern1">
         </div>
-        
+
         <img src=".\images\bg-pattern-intro-right-desktop.svg" class="desktop-intro-pattern1">
-        <img src=".\images\bg-pattern-intro-left-desktop.svg" alt="desktop-intro-pattern" class="desktop-intro-pattern2">
-        
-        
+        <img src=".\images\bg-pattern-intro-left-desktop.svg" alt="desktop-intro-pattern"
+            class="desktop-intro-pattern2">
+
+
 
         <img src=".\images\image-intro-desktop.jpg" alt="image-intro-desktop" id="intro-desktop" class="family-picture">
-       
+
     </div>
 
-<!-- Section 2-->
+    <!-- Section 2-->
 
     <div class="section2">
         <img src=".\images\bg-pattern-intro-right-mobile.svg" alt="mobile-intro-pattern" class="mobile-intro-pattern2">
@@ -128,14 +97,14 @@ Look into selectors for short cuts to describing html elements you want to targe
 
     </div>
 
-<!-- Section 3-->
+    <!-- Section 3-->
 
     <div class="section3">
         <div class="banner">
             <img src="images/bg-pattern-how-we-work-desktop.svg" alt="pattern" id="pattern_how_we_work-desktop">
-            
+
             <img src="images/bg-pattern-how-we-work-mobile.svg" alt="pattern" id="pattern_how_we_work-mobile">
-            
+
             <h2 class="banner_text"> Find out more about how we work</h2>
 
             <a class="cta plans2" href="#">
@@ -149,19 +118,24 @@ Look into selectors for short cuts to describing html elements you want to targe
 
 
     <div class="footer_main_div">
-        <img src=".\images\bg-pattern-footer-mobile.svg" alt="bg-pattern-footer-mobile" class="pattern-footer-mobile"> 
-    <div class="footer_top">
+        <img src=".\images\bg-pattern-footer-mobile.svg" alt="bg-pattern-footer-mobile" class="pattern-footer-mobile">
+        <img src=".\images\bg-pattern-footer-desktop.svg" alt="bg-pattern-footer-desktop"
+            class="pattern-footer-desktop">
+        <div class="footer_top">
             <img src=".\images\logo.svg" alt="logo" class="footer_logo">
             <ul class="social_icons">
-                <li> <a class="social_icon" href="#"><img src=".\images\icon-facebook.svg" alt="facebook_logo"> </a></li>
+                <li> <a class="social_icon" href="#"><img src=".\images\icon-facebook.svg" alt="facebook_logo"> </a>
+                </li>
                 <li> <a class="social_icon" href="#"><img src=".\images\icon-twitter.svg" alt="twitter_logo"> </a></li>
-                <li> <a class="social_icon" href="#"><img src=".\images\icon-pinterest.svg" alt="pinterest_logo"> </a> </li>
-                <li> <a class="social_icon" href="#"><img src=".\images\icon-instagram.svg" alt="instagram_logo"> </a> </li>
+                <li> <a class="social_icon" href="#"><img src=".\images\icon-pinterest.svg" alt="pinterest_logo"> </a>
+                </li>
+                <li> <a class="social_icon" href="#"><img src=".\images\icon-instagram.svg" alt="instagram_logo"> </a>
+                </li>
             </ul>
-    
-           
-    </div>
-     <hr class="footer_hr"> 
+
+
+        </div>
+        <hr class="footer_hr">
 
         <div class="footer_links">
 
@@ -174,7 +148,7 @@ Look into selectors for short cuts to describing html elements you want to targe
                     <li>REVIEWS</li>
                 </ul>
             </div>
-        
+
 
             <div class="footer_content_2">
                 <h4 class="footer_content_header"> HELP ME </h4>
@@ -185,7 +159,7 @@ Look into selectors for short cuts to describing html elements you want to targe
                     <li>COOKIES</li>
                 </ul>
             </div>
-        
+
 
             <div class="footer_content_3">
                 <h4 class="footer_content_header"> CONTACT </h4>

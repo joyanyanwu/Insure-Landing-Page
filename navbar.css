@@ -6,11 +6,12 @@
 }
 
 .nav_links{
-line-height: 60px;
+line-height: 65px;
 margin: 0;
   list-style-type: none;
   display: inline-flex;
   padding-right: 5%;
+  letter-spacing: 0.5px;
 }
 
 ul.nav_links:hover{
@@ -33,7 +34,7 @@ ul.nav_links:hover{
   background-color: white;
   color: hsl(256, 26%, 20%);
   padding: 9px 25px;
-  border-width: 1px;
+  border-width: 1.5px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
 }
@@ -77,9 +78,7 @@ label{
 }
 
 .responsive_nav{
-  display: inline-block;
   width:100%;
-  height: fit-content;
   padding-bottom: 25px;
   padding-top: 5px;
 }

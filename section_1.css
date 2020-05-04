@@ -7,11 +7,8 @@
 }
 
 .content {
-  margin: 0;
-  padding: 0;
   color: hsl(0, 0%, 100%);
-  padding-top: 120px;
-  padding-left: 150px;
+  padding: 120px 0 0 150px;
   height: 500px;
 }
 
@@ -23,15 +20,14 @@ p.intro_text {
   margin-bottom: 40px;
 }
 
-.content .cta.plans2{
+/*.content .cta.plans2{
   margin-left: 0;
-}
+} */
 
 .family-picture {
   position: absolute;
   left: 800px;
   top: 125px;
-  z-index: 1;
   margin-top:69px
 }
 
@@ -61,12 +57,12 @@ hr .section1_hr {
 /* media queries*/
 
 @media only screen and (max-width: 375px) {
+  .nav{
+    padding: 0;
+  }
   .family-picture {
     position: static;
-    left: 0;
-    top: 0;
     width: 100%;
-    order: 1;
     margin: 0;
   }
   .intro {
@@ -80,13 +76,11 @@ hr .section1_hr {
     padding-left: 0;
     order: 2;
     position: relative;
-    margin: 0px;
     height: 550px;
   }
   h1 {
     font-size: 48px;
     padding-top: 80px;
-    z-index: 2;
   }
   p.intro_text {
     text-align: center;
@@ -119,6 +113,6 @@ display: none;
  }
 
  .content .cta.plans2 {
- margin-left: 97px;
+ margin-left: 106px;
 }
 

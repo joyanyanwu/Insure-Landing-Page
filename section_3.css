@@ -1,7 +1,4 @@
 .section3{
-    /* border: solid;
-    border-color: brown;*/
-    border-width: 5px; 
     padding-bottom: 140px;
 }
 
@@ -29,7 +26,6 @@
 #pattern_how_we_work-desktop{
 position: absolute;
 right: 0px;
-z-index: 1;
 }
 
 #pattern_how_we_work-mobile{
@@ -38,7 +34,6 @@ z-index: 1;
 
 
 .section3 .cta.plans2{
-    z-index: 2;
     right: 80px;
     position: absolute;
 
@@ -52,11 +47,8 @@ z-index: 1;
 }
 
     .banner{
-        margin-right: 0px;
-        margin-left: 0px;
+       
         left: 0;
-        display: flex;
-        position: relative;
         flex-direction: column;
         justify-content: center;
         width: 88%;
@@ -69,16 +61,10 @@ z-index: 1;
     margin-top: 38px;
     color: hsl(0, 0%, 98%);
     text-align: center;
-    /* padding-left: 80px; */
-    width: -2%;
-    /* line-height: 3.9rem; */
-    font-size: 35px;
     width: 79%;
-    justify-content: center;
     padding: 0;
     line-height: 1.1;
     font-size: 44px;
-    align-items: center;
 }
 
 #pattern_how_we_work-mobile{
@@ -93,7 +79,6 @@ z-index: 1;
 .section3 .cta.plans2{
     margin: 0;
     width: 8.5rem;
-    /* padding-top: 6%; */
     margin-top: 13%;
     position: static;
 }
