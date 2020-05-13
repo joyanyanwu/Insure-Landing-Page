@@ -1,0 +1,105 @@
+.section3{
+    padding-bottom: 140px;
+}
+
+.section3 .banner_text{
+    color: hsl(0, 0%, 98%);
+    text-align: left;
+    padding-left: 80px;
+    width: 46%;
+    line-height: 3.9rem;
+    font-size: 60px;
+    font-weight: 400;
+    
+}
+.banner{
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    left:10%;
+    width: 80%;
+    height: 251px;
+    background-color: hsl(256, 26%, 20%);
+    align-items: center;
+}
+
+#pattern_how_we_work-desktop{
+position: absolute;
+right: 0px;
+}
+
+#pattern_how_we_work-mobile{
+    display: none;
+}
+
+
+.section3 .cta.plans2{
+    right: 80px;
+    position: absolute;
+
+} 
+
+@media only screen and (max-width: 375px) {
+.section3{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+    .banner{
+       
+        left: 0;
+        flex-direction: column;
+        justify-content: center;
+        width: 88%;
+        padding-top: 33px;
+    padding-bottom: 66px;
+    height: 270px;
+}
+
+.section3 .banner_text{
+    margin-top: 38px;
+    color: hsl(0, 0%, 98%);
+    text-align: center;
+    width: 79%;
+    padding: 0;
+    line-height: 1.1;
+    font-size: 44px;
+}
+
+#pattern_how_we_work-mobile{
+    display: block;
+    top:0;
+}
+#pattern_how_we_work-desktop{
+    display: none;
+}
+
+
+.section3 .cta.plans2{
+    margin: 0;
+    width: 8.5rem;
+    margin-top: 13%;
+    position: static;
+}
+  
+
+.banner_text{
+    margin: 0;
+    padding: 0;
+    font-size: 40px;2
+    line-height: 2rem;
+    letter-spacing: -1px;
+    FONT-WEIGHT: 600;
+    width: 74%;
+    padding-bottom: 48px;
+    padding-top: 42px;
+    line-height: 2.5rem;
+z-index: 2;
+}
+
+#pattern_how_we_work-mobile{
+right: 0;
+position: absolute;
+}
+
