@@ -1,34 +1,60 @@
-.nav{
-  align-items: baseline;
+.contact-nav{
+  align-items: center;
+  justify-content: left;
+  display: flex;
+  width: 100%;
+  background-color: cornflowerblue;
+  color: white;
+  font-family: 'Karla', sans-serif;
+	font-size: 16px;
+	font-weight: 400px;
+	line-height: 150%;
+}
+.contact-nav-details{
+  list-style-type: none;
+  display: inline-flex;
+  padding-left: 7rem;
+}
+
+.contact-nav-details li{
+  padding-left: 2rem;
+}
+
+.contact-nav-details li i{
+  padding-right: 1rem;
+}
+.nav {
+  align-items: center;
   display: flex;
   width: 100%;
   justify-content: space-between;
+  margin:2rem;
 }
 
-.nav_links{
-line-height: 65px;
-margin: 0;
+.nav_links {
+  line-height: 65px;
+  margin: 0;
   list-style-type: none;
   display: inline-flex;
   padding-right: 5%;
   letter-spacing: 0.5px;
 }
 
-ul.nav_links:hover{
-  color:hsl(270, 9%, 17%);
+ul.nav_links li a:hover {
+  color: hsl(270, 9%, 17%);
 }
 
-.nav_links li a{
+.nav_links li a {
   font-family: 'Karla', sans-serif;
-	font-size: 16px;
-  color: hsl(273, 4%, 51%); 
+  font-size: 16px;
+  color: hsl(273, 4%, 51%);
   font-weight: 700;
   margin: 0 30px 0 0;
   text-decoration: none;
   cursor: pointer;
 }
 
-#plans{
+#plans {
   border-style: solid;
   border-color: hsl(256, 26%, 20%);
   background-color: white;
@@ -39,104 +65,93 @@ ul.nav_links:hover{
   transition: all 0.3s ease 0s;
 }
 
-#plans:hover{
-  background-color: hsl(256, 26%, 20%); ;
+#plans:hover {
+  background-color: hsl(256, 26%, 20%);
+  ;
   color: white;
 }
 
-
-
-.logo{
- padding: 15px 0 0 150px;
- display: inline;
+.logo {
+  padding: 15px 0 0 150px;
+  display: inline;
 }
 
-
-label{
+label {
   margin: 0 40 0 0;
-  font-size: 20px ;
+  font-size: 20px;
   line-height: 60px;
   display: none;
 }
 
-#toggle{
+#toggle {
   display: none;
 }
 
-.mobile-nav-pattern{
+.mobile-nav-pattern {
   display: none;
 }
+
 @media only screen and (max-width: 375px) {
-
-  .nav{
+  .nav {
     display: block;
   }
-.logo{
- line-height: 60px;
-  padding: 19px 0 0 50px;
- display: inline-block; 
-}
-
-.responsive_nav{
-  width:100%;
-  padding-bottom: 25px;
-  padding-top: 5px;
-}
-label{
-display: inline-block;
-cursor: pointer;
-padding: 0 30px 0 0;
-font-size: 26px;
-position: absolute;
-right: 20px;
-
-}
-
-.nav_links{
-  text-align: center;
-  line-height: 55px;
-  width: 100%;
-  height: 459px;
-  padding: 23px 0 30px 0;
-  display: none;
-  background-color: hsl(256, 26%, 20%) ;
-  position: relative;
-}
-
-
-.nav_links li a{
-text-align: center;
-align-items: center;
-margin: 0 0 0 0 ;
-color: white;
-font-weight: 400;
-font-size: 16px;
-
-}
-
-#toggle{
-  border: black 1px solid;
-}
-#toggle:checked + .nav_links{
-  display: block;
-}
-
-#plans{
-  border-style: solid;
-  border-color: white;
-  padding: 12px 111px;
-  border-width: 1px;
-  background-color: hsl(256, 26%, 20%);
-  color: white;
-}
-
-#plans:hover{
-  background-color: white;
-  color:hsl(256, 26%, 20%) ;
-}
-
-.mobile-nav-pattern{
- display: block; 
-  position: absolute;
-bottom: 0;
+  .logo {
+    line-height: 60px;
+    padding: 19px 0 0 50px;
+    display: inline-block;
+  }
+  .responsive_nav {
+    width: 100%;
+    padding-bottom: 25px;
+    padding-top: 5px;
+  }
+  label {
+    display: inline-block;
+    cursor: pointer;
+    padding: 0 30px 0 0;
+    font-size: 26px;
+    position: absolute;
+    right: 20px;
+  }
+  .nav_links {
+    text-align: center;
+    line-height: 55px;
+    width: 100%;
+    height: 459px;
+    padding: 23px 0 30px 0;
+    display: none;
+    background-color: hsl(256, 26%, 20%);
+    position: relative;
+  }
+  .nav_links li a {
+    text-align: center;
+    align-items: center;
+    margin: 0 0 0 0;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  #toggle {
+    border: black 1px solid;
+  }
+  #toggle:checked+.nav_links {
+    display: block;
+  }
+  #plans {
+    border-style: solid;
+    border-color: white;
+    padding: 12px 111px;
+    border-width: 1px;
+    background-color: hsl(256, 26%, 20%);
+    color: white;
+  }
+  #plans:hover {
+    background-color: white;
+    color: hsl(256, 26%, 20%);
+  }
+  .mobile-nav-pattern {
+    display: block;
+    position: absolute;
+    bottom: 0;
+  }
 }

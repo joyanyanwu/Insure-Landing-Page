@@ -9,7 +9,7 @@
 	background-color: white;
 }
 
-h1{
+h1 {
 	font-weight: 400;
 }
 
@@ -28,7 +28,7 @@ p {
 }
 
 .plans2 {
-	display:block !important;
+	display: block !important;
 	padding: 9px 21px;
 	background-color: hsl(256, 26%, 20%);
 	border-style: solid;
@@ -48,7 +48,6 @@ p {
 	background-color: hsl(0, 0%, 98%);
 }
 
-
 h3 {
 	font-family: 'DM Serif Display', serif;
 	font-size: 28px;
@@ -59,15 +58,15 @@ h3 {
 }
 
 @media only screen and (min-width: 375px) {
-	body{
+	body {
 		margin: 0;
 	}
-}
-
-h2 {
-	font-size: 50px;
-	padding: 0px;
-	text-align: center;
-	justify-content: center;
-	width: 100%;
+	
+	h2 {
+		font-size: 50px;
+		padding: 0px;
+		text-align: center;
+		justify-content: center;
+		width: 100%;
+	}
 }
