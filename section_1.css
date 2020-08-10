@@ -1,5 +1,5 @@
 .intro {
-  background-image: url("./images/1\ \(1\).jpg");
+ background-color: #F37A47;
   color: hsl(0, 0%, 100%);
   box-sizing: border-box;
   display: flex;
@@ -10,13 +10,12 @@
 .content {
   color: hsl(0, 0%, 100%);
   padding: 120px 0 0 150px;
-  height: 500px;
+  height: 29rem;
 }
 
-.content h1 {
-  margin-bottom: 37px;
+.content h1{
+  margin: 0;
 }
-
 p.intro_text {
   width: 42%;
   margin-bottom: 40px;
@@ -26,27 +25,10 @@ p.intro_text {
   position: absolute;
   left: 800px;
   top: 125px;
-  margin-top: 69px
+  margin: 0 0 2rem 0;
+  height: 20rem;
 }
 
-.desktop-intro-pattern1 {
-  position: absolute;
-  right: 0;
-  z-index: 2;
-}
-
-.desktop-intro-pattern2 {
-  position: absolute;
-  top: 450px;
-}
-
-.mobile-intro-pattern1 {
-  display: none;
-}
-
-.mobile-intro-pattern2 {
-  display: none;
-}
 
 hr .section1_hr {
   color: white;
@@ -61,7 +43,7 @@ hr .section1_hr {
   .family-picture {
     position: static;
     width: 100%;
-    margin: 0;
+   /* margin: 0;*/
   }
   .intro {
     display: flex;
@@ -74,11 +56,11 @@ hr .section1_hr {
     padding-left: 0;
     order: 2;
     position: relative;
-    height: 550px;
+    /*height: 550px;*/
   }
   h1 {
     font-size: 48px;
-    padding-top: 80px;
+    padding: 2rem;
   }
   p.intro_text {
     text-align: center;
@@ -92,19 +74,7 @@ hr .section1_hr {
   .content .short_hr {
     display: none;
   }
-  .desktop-intro-pattern1 {
-    display: none;
-  }
-  .desktop-intro-pattern2 {
-    display: none;
-  }
-  .mobile-intro-pattern1 {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-  }
+  
   .content .cta.plans2 {
     margin-left: 106px;
   }

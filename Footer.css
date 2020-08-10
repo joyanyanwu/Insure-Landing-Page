@@ -27,6 +27,8 @@
 
 .footer_logo {
   padding-left: 150px;
+  font-weight: bold;
+  font-family: 'Karla', sans-serif;
 }
 
 .footer_social_icons ul li:hover {
@@ -164,3 +166,4 @@
   .pattern-footer-desktop {
     display: none;
   }
+}

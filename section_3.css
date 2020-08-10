@@ -19,7 +19,7 @@
     left: 10%;
     width: 80%;
     height: 251px;
-    background-color: hsl(256, 26%, 20%);
+    background-color:#173f5f;
     align-items: center;
 }
 
@@ -91,3 +91,4 @@
         right: 0;
         position: absolute;
     }
+}

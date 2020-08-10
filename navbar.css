@@ -12,12 +12,12 @@
 }
 .contact-nav-details{
   list-style-type: none;
-  display: inline-flex;
-  padding-left: 7rem;
+  display: block
+  /*padding-left: 7rem;*/
 }
 
 .contact-nav-details li{
-  padding-left: 2rem;
+ /* padding-left: 2rem;*/
 }
 
 .contact-nav-details li i{
@@ -27,11 +27,54 @@
   align-items: center;
   display: flex;
   width: 100%;
-  justify-content: space-between;
-  margin:2rem;
+ justify-content: space-around;
+ font-family: 'Karla', sans-serif;
+	font-size: 16px;
+	font-weight: 400px;
+	line-height: 2rem;
+ /* margin:2rem;*/
 }
 
-.nav_links {
+.nav .mainMenu{
+  display: flex;
+  list-style: none;
+  align-items: baseline;
+}
+
+.nav .mainMenu li a {
+display: inline-block;
+padding: 15px;
+text-decoration: none;
+
+color: #173f5f;
+
+}
+
+.nav .mainMenu li a:hover{
+  color:#696969;
+}
+
+.nav .openMenu{
+  font-size: 2rem;
+  margin: 20px;
+  display: none;
+  cursor: pointer;
+}
+
+.nav .mainMenu .closeMenu, .icons i{
+  font-size: 2rem;
+  display: none;
+  cursor: pointer;
+}
+
+.nav .logo{
+  margin: 6px;
+  font-size: 25px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/*.nav_links {
   line-height: 65px;
   margin: 0;
   list-style-type: none;
@@ -53,25 +96,27 @@ ul.nav_links li a:hover {
   text-decoration: none;
   cursor: pointer;
 }
-
+*/
 #plans {
   border-style: solid;
-  border-color: hsl(256, 26%, 20%);
-  background-color: white;
-  color: hsl(256, 26%, 20%);
+  border-color:  #173f5f;
+  background-color: #ffffff;
+  color:#173f5f;
   padding: 9px 25px;
   border-width: 1.5px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
+  margin-top: 1rem;
 }
 
 #plans:hover {
-  background-color: hsl(256, 26%, 20%);
+  background-color:#173f5f;
   ;
-  color: white;
+  border-color:#173f5f;
+  color: #ffffff;
 }
 
-.logo {
+/*.logo {
   padding: 15px 0 0 150px;
   display: inline;
 }
@@ -82,29 +127,27 @@ label {
   line-height: 60px;
   display: none;
 }
-
+/*
 #toggle {
   display: none;
-}
+}*/
 
-.mobile-nav-pattern {
-  display: none;
-}
+
 
 @media only screen and (max-width: 375px) {
-  .nav {
+ /* .nav {
     display: block;
-  }
-  .logo {
+  }*/
+  /*.logo {
     line-height: 60px;
     padding: 19px 0 0 50px;
     display: inline-block;
-  }
+  }*
   .responsive_nav {
     width: 100%;
     padding-bottom: 25px;
     padding-top: 5px;
-  }
+  }*
   label {
     display: inline-block;
     cursor: pointer;
@@ -131,12 +174,12 @@ label {
     font-weight: 400;
     font-size: 16px;
   }
-  #toggle {
+  /*#toggle {
     border: black 1px solid;
   }
   #toggle:checked+.nav_links {
     display: block;
-  }
+  }*
   #plans {
     border-style: solid;
     border-color: white;
@@ -149,9 +192,74 @@ label {
     background-color: white;
     color: hsl(256, 26%, 20%);
   }
-  .mobile-nav-pattern {
-    display: block;
-    position: absolute;
-    bottom: 0;
+  
+}*/
+
+@media only screen and (max-width: 800px) {
+  .nav .mainMenu{
+    
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    background-color: #20639B;
+    /*transition: top 1s ease;*/
+    display: none;
+    padding: 2rem;
+    text-align: center;
+    margin: 0;
+    
   }
+
+.nav .mainMenu .closeMenu{
+  display: block;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.nav .openMenu{
+  display: block;
+}
+
+.nav .mainMenu li a {
+  display: inline-block;
+  padding: 15px;
+  text-decoration: none;
+  
+  color: white;
+  
+  }
+
+.nav .mainMenu li a:hover{
+  background: none;
+  color: #173f5f;
+}
+
+.icons i{
+  display: inline-block;
+  padding: 12px;
+}
+#plans {
+  border-style: solid;
+  border-color:  #173f5f;
+  background-color:  #173f5f;
+  color:#ffffff;
+  padding: 9px 25px;
+  border-width: 1.5px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  margin-top: 1rem;
+}
+
+#plans:hover {
+  background-color: #ffffff;
+  ;
+  border-color: #ffffff;
+  color: #173f5f;
+}
 }
