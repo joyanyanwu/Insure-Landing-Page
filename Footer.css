@@ -3,6 +3,7 @@
   height: auto;
   width: auto;
   background-color: hsl(0, 0%, 98%);
+  margin-bottom: 5rem;
 }
 
 .footer_top {
@@ -28,7 +29,8 @@
 .footer_logo {
   padding-left: 150px;
   font-weight: bold;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Roboto Condensed', Sans-Serif;
+font-size: 35px;: 'Karla', sans-serif;
 }
 
 .footer_social_icons ul li:hover {

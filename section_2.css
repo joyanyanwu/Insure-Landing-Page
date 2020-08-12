@@ -2,10 +2,12 @@
     display: grid;
     position: relative;
     margin-top: 21%;
+    margin-bottom: 40%;
 }
 
-.section2 h1 {
-    padding-left: 150px;
+.section2 h2 {
+    color: #173F5F;
+    margin-bottom: 5rem;
 }
 
 .section2__content {
@@ -75,7 +77,7 @@ p.section2__text {
         top: -231px;
     }
     .section2 h2 {
-        margin-bottom: 96px;
+        /*margin-bottom: 96px;*/
     }
     .section2 .short_hr {
        /* height: 1px;*/
