@@ -1,4 +1,4 @@
-.contact-nav{
+.contact-nav {
   align-items: center;
   justify-content: left;
   display: flex;
@@ -6,68 +6,69 @@
   background-color: cornflowerblue;
   color: white;
   font-family: 'Karla', sans-serif;
-	font-size: 16px;
-	font-weight: 400px;
-	line-height: 150%;
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 150%;
 }
-.contact-nav-details{
+
+.contact-nav-details {
   list-style-type: none;
   display: block
   /*padding-left: 7rem;*/
 }
 
-.contact-nav-details li{
- /* padding-left: 2rem;*/
+.contact-nav-details li {
+  /* padding-left: 2rem;*/
 }
 
-.contact-nav-details li i{
+.contact-nav-details li i {
   padding-right: 1rem;
 }
+
 .nav {
   align-items: center;
   display: flex;
   width: 100%;
- justify-content: space-around;
- font-family:'PT Sans', Sans-Serif;;
-	font-size: 16px;
-	font-weight: 400px;
-	line-height: 2rem;
- /* margin:2rem;*/
+  justify-content: space-around;
+  font-family: 'PT Sans', Sans-Serif;
+  ;
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 2rem;
+  /* margin:2rem;*/
 }
 
-.nav .mainMenu{
+.nav .mainMenu {
   display: flex;
   list-style: none;
   align-items: baseline;
 }
 
 .nav .mainMenu li a {
-display: inline-block;
-padding: 15px;
-text-decoration: none;
-
-color: #173f5f;
-
+  display: inline-block;
+  padding: 15px;
+  text-decoration: none;
+  color: #173f5f;
 }
 
-.nav .mainMenu li a:hover{
-  color:#696969;
+.nav .mainMenu li a:hover {
+  color: #696969;
 }
 
-.nav .openMenu{
+.nav .openMenu {
   font-size: 2rem;
   margin: 20px;
   display: none;
   cursor: pointer;
 }
 
-.nav .mainMenu .closeMenu, .icons i{
+.nav .mainMenu .closeMenu, .icons i {
   font-size: 2rem;
   display: none;
   cursor: pointer;
 }
 
-.nav .logo{
+.nav .logo {
   margin: 6px;
   font-size: 25px;
   cursor: pointer;
@@ -97,11 +98,12 @@ ul.nav_links li a:hover {
   cursor: pointer;
 }
 */
+
 #plans {
   border-style: solid;
-  border-color:  #173f5f;
+  border-color: #173f5f;
   background-color: #ffffff;
-  color:#173f5f;
+  color: #173f5f;
   padding: 9px 25px;
   border-width: 1.5px;
   cursor: pointer;
@@ -110,9 +112,9 @@ ul.nav_links li a:hover {
 }
 
 #plans:hover {
-  background-color:#173f5f;
+  background-color: #173f5f;
   ;
-  border-color:#173f5f;
+  border-color: #173f5f;
   color: #ffffff;
 }
 
@@ -132,10 +134,8 @@ label {
   display: none;
 }*/
 
-
-
 @media only screen and (max-width: 375px) {
- /* .nav {
+  /* .nav {
     display: block;
   }*/
   /*.logo {
@@ -194,72 +194,61 @@ label {
   }
   
 }*/
-
-@media only screen and (max-width: 800px) {
-  .nav .mainMenu{
-    
-    position: fixed;
-    top:0;
-    right: 0;
-    left: 0;
-    z-index: 10;
-    flex-direction: column;
-    justify-content: center;
-    align-self: center;
-    background-color: #20639B;
-    /*transition: top 1s ease;*/
-    display: none;
-    padding: 2rem;
-    text-align: center;
-    margin: 0;
-    
+  @media only screen and (max-width: 800px) {
+    .nav .mainMenu {
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      z-index: 10;
+      flex-direction: column;
+      justify-content: center;
+      align-self: center;
+      background-color: #20639B;
+      /*transition: top 1s ease;*/
+      display: none;
+      padding: 2rem;
+      text-align: center;
+      margin: 0;
+    }
+    .nav .mainMenu .closeMenu {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+    .nav .openMenu {
+      display: block;
+    }
+    .nav .mainMenu li a {
+      display: inline-block;
+      padding: 15px;
+      text-decoration: none;
+      color: white;
+    }
+    .nav .mainMenu li a:hover {
+      background: none;
+      color: #173f5f;
+    }
+    .icons i {
+      display: inline-block;
+      padding: 12px;
+    }
+    #plans {
+      border-style: solid;
+      border-color: #173f5f;
+      background-color: #173f5f;
+      color: #ffffff;
+      padding: 9px 25px;
+      border-width: 1.5px;
+      cursor: pointer;
+      transition: all 0.3s ease 0s;
+      margin-top: 1rem;
+    }
+    #plans:hover {
+      background-color: #ffffff;
+      ;
+      border-color: #ffffff;
+      color: #173f5f;
+    }
   }
-
-.nav .mainMenu .closeMenu{
-  display: block;
-  position: absolute;
-  top: 20px;
-  right: 20px;
-}
-
-.nav .openMenu{
-  display: block;
-}
-
-.nav .mainMenu li a {
-  display: inline-block;
-  padding: 15px;
-  text-decoration: none;
-  
-  color: white;
-  
-  }
-
-.nav .mainMenu li a:hover{
-  background: none;
-  color: #173f5f;
-}
-
-.icons i{
-  display: inline-block;
-  padding: 12px;
-}
-#plans {
-  border-style: solid;
-  border-color:  #173f5f;
-  background-color:  #173f5f;
-  color:#ffffff;
-  padding: 9px 25px;
-  border-width: 1.5px;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-  margin-top: 1rem;
-}
-
-#plans:hover {
-  background-color: #ffffff;
-  ;
-  border-color: #ffffff;
-  color: #173f5f;
-}
-}
