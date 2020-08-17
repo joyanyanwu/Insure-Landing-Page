@@ -1,3 +1,3 @@
 # Frontend Mentor - Insure landing page
 
-Currenlty re-designing! 👷🏿🚧
+👷🏿🚧 Currently re-designing! 👷🏿🚧
