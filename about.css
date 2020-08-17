@@ -1,0 +1,36 @@
+.overview{
+    background-color: #ffffff;
+}
+.overview .overview-image{
+    width: 100%;
+}
+.overview h1{
+    margin-bottom: 1rem;
+}
+.overview hr{
+    width: 45%;
+    height: 4px;
+    background-color:#F37A47;
+    border-color: #F37A47;
+    margin-bottom: 2rem;
+}
+
+.overview p{
+    margin-bottom: 3rem;
+}
+
+.skills{
+    background-color: #173f5f;
+}
+
+.skills .one{
+   
+    display: inline-flex;
+    align-items: center;
+    color: #ffff;
+}
+
+.skills img{
+    width: 17%;
+    margin-right: 1.5rem;
+}
