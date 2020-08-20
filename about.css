@@ -10,16 +10,17 @@
 }
 .overview{
     background-color: #ffffff;
-    padding: 7rem 1rem 0 1rem;
+   /* padding: 7rem 1rem 0 1rem;*/
+   padding:7rem 1rem 0 1rem;
 
 }
 .overview .overview-image{
     width: 100%;
 }
-.overview h1{
+.overview h1, .what-we-do h1{
     margin-bottom: 1rem;
 }
-.overview hr{
+.overview hr, .what-we-do hr{
     width: 45%;
     height: 4px;
     background-color:#F37A47;
@@ -34,28 +35,38 @@
 .overview-text{
     line-height: 1.5rem;
 }
+.background-overlay{
+    opacity: 0.8;
+}
 .skills{
     /*background-color: #173f5f;*/
     padding-bottom: 5rem;
-    background-color: blanchedalmond;
+    background: url("./images/workers1.jpg");
+    background-size: cover;
+    height: 65rem;
+    display: flex;
+    flex-direction: column;
 }
 
-.skills .one{
+#skills-section{
    
     display: inline-flex;
     align-items: center;
+   /* padding:5rem 3rem 2rem 3rem;*/
     
 }
 
-.skills img{
-    width: 17%;
-    margin-right: 1.5rem;
-}
+
 
 .what-we-do{
-    padding: 7rem 0 7rem 0;
+    padding: 7rem 1rem 7rem 1rem;
     /*background-color: #F9F8F8;*/
 }
+
+.what-we-do p {
+    padding-bottom: 3rem;
+}
+
 
 .collapsible {
     background-color: #777;
