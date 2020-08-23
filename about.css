@@ -40,24 +40,39 @@
 }
 .skills{
     /*background-color: #173f5f;*/
-    padding-bottom: 5rem;
     background: url("./images/workers1.jpg");
     background-size: cover;
-    height: 65rem;
+    height: 80rem;
     display: flex;
     flex-direction: column;
-}
-
-#skills-section{
-   
-    display: inline-flex;
+    padding: 5rem 2rem 5rem 2rem;
+    text-align: center;
     align-items: center;
-   /* padding:5rem 3rem 2rem 3rem;*/
-    
+    margin-bottom: 7rem;
 }
 
 
 
+.skills h2{
+    margin-bottom: 1rem;
+    font-size: 32px;
+    padding: 0 1rem 0 1rem;
+    color: #ffffff;
+}
+
+.skills i{
+    font-size: 5rem;
+    padding: 6rem 0 1rem 0;
+    color: #F37A47;
+}
+
+.skills h3{
+    padding: 0 2rem 0 2rem;
+}
+
+.skills p{
+    display: none;
+}
 .what-we-do{
     padding: 7rem 1rem 7rem 1rem;
     /*background-color: #F9F8F8;*/
@@ -93,7 +108,7 @@
   }
 
   #collapsible-4{
-      background-color: #174364;
+      background-color: 
   }
   .active, .collapsible:hover {
     background-color: #555;
@@ -117,4 +132,28 @@
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     background-color: #f1f1f1;
+  }
+
+.our-team{
+    text-align: center;
+    padding: 0 2rem 0 2rem;
+}
+
+  .team img{
+    width: 100%;
+    padding-bottom: 3rem;
+  }
+
+  .team{
+      background-color: #ffffff;
+      border-style: solid;
+      border-color:#ffffff;
+      text-align: center;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      margin-bottom: 4rem;
+      
+  }
+
+  .team .contact-text{
+      padding: 1rem 2rem 1rem 2rem;
   }
