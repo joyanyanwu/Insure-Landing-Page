@@ -1,6 +1,4 @@
-.section3 {
-    padding-bottom: 140px;
-}
+
 
 .section3 .banner_text {
     color: hsl(0, 0%, 98%);
@@ -18,7 +16,7 @@
     display: flex;
     overflow: hidden;
     left: 10%;
-    width: 80%;
+    width: 100%;
     height: 251px;
     background-color:#173f5f;
     align-items: center;
@@ -48,10 +46,9 @@
         left: 0;
         flex-direction: column;
         justify-content: center;
-        width: 88%;
-        padding-top: 33px;
-        padding-bottom: 66px;
-        height: 270px;
+        width: 100%;
+        padding:10rem 0 10rem 0;
+        height: 31rem;
     }
     .section3 .banner_text {
         margin-top: 38px;

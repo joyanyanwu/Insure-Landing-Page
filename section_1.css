@@ -34,6 +34,29 @@ hr .section1_hr {
   color: white;
 }
 
+.experience{
+  text-align: left;
+  padding:1rem;
+}
+.experience h2{
+ font-size: 18px;
+  text-align: left;
+  color: #173f5f;
+}
+.experience img{
+  width: 100%;
+}
+
+.experience h3{
+  padding:2.5rem 0 1rem 0;
+  font-weight: 600;
+  color: #F37A47;
+}
+
+.experience p{
+  color: rgb(182, 182, 182);
+    font-weight: 500;
+}
 /* media queries*/
 
 @media only screen and (max-width: 375px) {

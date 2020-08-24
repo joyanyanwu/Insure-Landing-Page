@@ -36,13 +36,16 @@
     line-height: 1.5rem;
 }
 .background-overlay{
-    opacity: 0.8;
+    background: url("./images/workers1.jpg");
+    background-size: cover;
 }
 .skills{
     /*background-color: #173f5f;*/
-    background: url("./images/workers1.jpg");
-    background-size: cover;
-    height: 80rem;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    width: 100%;
+    color:#ffff;
+    /*height: 100%;*/
+    height: 116rem;
     display: flex;
     flex-direction: column;
     padding: 5rem 2rem 5rem 2rem;
@@ -51,23 +54,34 @@
     margin-bottom: 7rem;
 }
 
-
-
+.skills span{
+    color:#F37A47 ;
+}
+.skills-title{
+    margin-bottom: 7rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding:2rem;
+}
 .skills h2{
-    margin-bottom: 1rem;
+    margin-bottom: 8rem;
     font-size: 32px;
     padding: 0 1rem 0 1rem;
     color: #ffffff;
+    line-height: 4rem;
 }
 
 .skills i{
-    font-size: 5rem;
-    padding: 6rem 0 1rem 0;
+    font-size: 3rem;
+    padding: 0 0 1rem 0;
     color: #F37A47;
 }
 
 .skills h3{
-    padding: 0 2rem 0 2rem;
+    padding: 0 3rem 0 3rem;
+    text-transform: uppercase;
+    line-height: 2.5rem;
+    font-weight: 100;
+    font-size: 16px;
 }
 
 .skills p{
@@ -107,9 +121,10 @@
       background-color: #042f66;
   }
 
-  #collapsible-4{
+ /* #collapsible-4{
       background-color: 
-  }
+  }*/
+
   .active, .collapsible:hover {
     background-color: #555;
   }
@@ -137,6 +152,7 @@
 .our-team{
     text-align: center;
     padding: 0 2rem 0 2rem;
+    margin-bottom: 7rem;
 }
 
   .team img{
@@ -146,8 +162,8 @@
 
   .team{
       background-color: #ffffff;
-      border-style: solid;
-      border-color:#ffffff;
+     
+     
       text-align: center;
       box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
       margin-bottom: 4rem;
