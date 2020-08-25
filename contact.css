@@ -157,4 +157,13 @@ padding-bottom: 2rem;
   grid-gap: none;
 
 }
+
+.footer-links{
+  display: inline-flex;
+  font-size: x-small;
+
+  
 }
+
+}
+
