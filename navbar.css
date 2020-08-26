@@ -37,7 +37,7 @@
   line-height: 2rem;
   /* margin:2rem;*/
   background-color: #ffffff;
-  padding: 1rem;
+  padding: 1.5rem 1rem 1rem 1rem;
 }
 
 .nav .mainMenu {
@@ -218,7 +218,7 @@
       color: #173f5f;
     }
 
-    .nav{
+    /*.nav{
       padding: 1rem 3rem 1rem 3rem;
-    }
+    }*/
   }

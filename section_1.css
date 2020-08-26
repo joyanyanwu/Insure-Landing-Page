@@ -57,6 +57,12 @@ hr .section1_hr {
   color: rgb(182, 182, 182);
     font-weight: 500;
 }
+
+.experience .plans2{
+  color: #173f5f;
+  border-color: #173f5f;
+  margin-top: 3rem;
+}
 /* media queries*/
 
 @media only screen and (max-width: 375px) {

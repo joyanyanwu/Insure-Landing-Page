@@ -1,49 +1,51 @@
-
-.body{
+.body {
     background-color: #F9F8F8;
-
 }
 
-.banner{
+.banner {
     margin-bottom: 0;
-    
 }
-.overview{
-    background-color: #ffffff;
-   /* padding: 7rem 1rem 0 1rem;*/
-   padding:7rem 1rem 0 1rem;
 
+.overview {
+    background-color: #ffffff;
+    /* padding: 7rem 1rem 0 1rem;*/
+    padding: 7rem 1rem 0 1rem;
 }
-.overview .overview-image{
+
+.overview .overview-image {
     width: 100%;
 }
-.overview h1, .what-we-do h1{
+
+.overview h1, .what-we-do h1 {
     margin-bottom: 1rem;
 }
-.overview hr, .what-we-do hr{
+
+.overview hr, .what-we-do hr {
     width: 45%;
     height: 4px;
-    background-color:#F37A47;
+    background-color: #F37A47;
     border-color: #F37A47;
     margin-bottom: 2rem;
 }
 
-.overview p{
+.overview p {
     margin-bottom: 3rem;
 }
 
-.overview-text{
+.overview-text {
     line-height: 1.5rem;
 }
-.background-overlay{
+
+.background-overlay {
     background: url("./images/workers1.jpg");
     background-size: cover;
 }
-.skills{
+
+.skills {
     /*background-color: #173f5f;*/
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
     width: 100%;
-    color:#ffff;
+    color: #ffff;
     /*height: 100%;*/
     height: 116rem;
     display: flex;
@@ -54,15 +56,17 @@
     margin-bottom: 7rem;
 }
 
-.skills span{
-    color:#F37A47 ;
+.skills span {
+    color: #F37A47;
 }
-.skills-title{
+
+.skills-title {
     margin-bottom: 7rem;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    padding:2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 2rem;
 }
-.skills h2{
+
+.skills h2 {
     margin-bottom: 8rem;
     font-size: 32px;
     padding: 0 1rem 0 1rem;
@@ -70,13 +74,13 @@
     line-height: 4rem;
 }
 
-.skills i{
+.skills i {
     font-size: 3rem;
     padding: 0 0 1rem 0;
     color: #F37A47;
 }
 
-.skills h3{
+.skills h3 {
     padding: 0 3rem 0 3rem;
     text-transform: uppercase;
     line-height: 2.5rem;
@@ -84,10 +88,11 @@
     font-size: 16px;
 }
 
-.skills p{
+.skills p {
     display: none;
 }
-.what-we-do{
+
+.what-we-do {
     padding: 7rem 1rem 7rem 1rem;
     /*background-color: #F9F8F8;*/
 }
@@ -95,7 +100,6 @@
 .what-we-do p {
     padding-bottom: 3rem;
 }
-
 
 .collapsible {
     background-color: #777;
@@ -107,69 +111,90 @@
     text-align: left;
     outline: none;
     font-size: 15px;
-  }
+}
 
-  #collapsible-1{
-      background-color: #1979a9;
-  }
-  
-  #collapsible-2{
-      background-color: #195e83;
-  }
+#collapsible-1 {
+    background-color: #1979a9;
+}
 
-  #collapsible-3{
-      background-color: #042f66;
-  }
+#collapsible-2 {
+    background-color: #195e83;
+}
 
- /* #collapsible-4{
+#collapsible-3 {
+    background-color: #042f66;
+}
+
+/* #collapsible-4{
       background-color: 
   }*/
 
-  .active, .collapsible:hover {
+.active, .collapsible:hover {
     background-color: #555;
-  }
-  
-  .collapsible:after {
+}
+
+.collapsible:after {
     content: '\002B';
     color: white;
     font-weight: bold;
     float: right;
     margin-left: 5px;
-  }
-  
-  .active:after {
+}
+
+.active:after {
     content: "\2212";
-  }
-  
-  .content {
+}
+
+.content {
     padding: 0 18px;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     background-color: #f1f1f1;
-  }
+}
 
-.our-team{
+.our-team {
     text-align: center;
     padding: 0 2rem 0 2rem;
     margin-bottom: 7rem;
 }
 
-  .team img{
+.team img {
     width: 100%;
     padding-bottom: 3rem;
-  }
+}
 
-  .team{
-      background-color: #ffffff;
-     
-     
-      text-align: center;
-      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-      margin-bottom: 4rem;
-      
-  }
+.team {
+    background-color: #ffffff;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 4rem;
+}
 
-  .team .contact-text{
-      padding: 1rem 2rem 1rem 2rem;
-  }
+.team .contact-text {
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+/* Next & previous buttons */
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}

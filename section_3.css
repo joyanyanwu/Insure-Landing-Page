@@ -35,6 +35,15 @@
     right: 80px;
     position: absolute;
 }
+.feature-work .our-work{
+    height: 40rem;
+}
+.feature-work .our-work h2{
+    padding: 7rem 2rem 0.5rem 2rem;
+}
+.feature-work .our-work p{
+    padding: 0 1rem 5rem 1rem;
+}
 
 @media only screen and (max-width: 375px) {
     .section3 {

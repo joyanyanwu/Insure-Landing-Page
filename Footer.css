@@ -101,6 +101,10 @@ font-size: 35px 'Karla', sans-serif;
   padding: 0px;
 }
 
+#index-contact-icons #icon{
+  width: 15%;
+}
+
 @media only screen and (max-width: 375px) {
   .footer_main_div {
     width: 100%;
