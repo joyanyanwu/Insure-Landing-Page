@@ -160,7 +160,11 @@
 
 
 
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 768px) {
+    .nav{
+      padding: 1.5rem 3rem 1rem 3rem;
+    }
+    
     .nav .mainMenu {
       position: fixed;
       top: 0;

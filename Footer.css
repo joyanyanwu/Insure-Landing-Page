@@ -181,3 +181,10 @@ font-size: 35px 'Karla', sans-serif;
     display: none;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .footer_links {
+    padding:15px 0px 56px 45px;
+    grid-gap:15.5%;
+  }
+}
