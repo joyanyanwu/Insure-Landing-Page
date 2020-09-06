@@ -36,10 +36,7 @@
     line-height: 1.5rem;
 }
 
-.background-overlay {
-    background: url("./images/workers1.jpg");
-    background-size: cover;
-}
+
 
 .skills {
     /*background-color: #173f5f;*/
@@ -54,6 +51,7 @@
     text-align: center;
     align-items: center;
     margin-bottom: 7rem;
+    display: inline-flex;
 }
 
 .skills span {
@@ -81,7 +79,7 @@
 }
 
 .skills h3 {
-    padding: 0 3rem 0 3rem;
+   padding: 0 3rem 0 3rem;
     text-transform: uppercase;
     line-height: 2.5rem;
     font-weight: 100;
@@ -98,7 +96,7 @@
 }
 
 .what-we-do p {
-    padding-bottom: 3rem;
+    padding: 3rem 0 3rem 0;
 }
 
 .collapsible {
@@ -113,6 +111,9 @@
     font-size: 15px;
 }
 
+.collapsible-section content p{
+    padding: 1rem;
+}
 #collapsible-1 {
     background-color: #1979a9;
 }
@@ -200,21 +201,60 @@
 }
 
 
-@media only screen and (max-width: 768px) {
-    .overview{
+@media only screen and (min-width: 768px) {
+    .overview, .what-we-do{
         display: flex;
-        padding: 0 2rem 0 2rem;
+        padding: 8rem 2rem 0 2rem;
     }
-    .overview-text{
+    .overview-text {
         padding:0 1rem 0 1rem;
 
     }
-    .overview h1, .overview-text hr{
-        padding: 0 0 0 1rem
+    .what-we-do p{
+        padding: 0 4rem 0 1rem;
+    }
+    .overview h1, .what-we-do-text h1 {
+        padding: 0 0 0 1rem;
+    }
+
+    .overview-text hr, .what-we-do-text hr{
+        margin-left: 1rem;
     }
 
     .overview .overview-image {
         height: 54%;
         width: 50%;
+        padding: 0 0 0 2rem;
+        justify-content: center;
+    }
+
+    
+
+    .collapsible-section{
+        display: grid;
+        padding-top:2rem;
+    }
+
+    .skills h3 {
+        padding: 0;
+     }
+     .skills-title {
+        padding: 0;
+        margin: 0;
+    }
+
+    .skills {
+        
+        width: 100%;
+        color: #ffff;
+        /*height: 100%;*/
+        height: 25rem;
+     
+        flex-direction: row;
+        padding: 5rem 2rem 5rem 2rem;
+        text-align: center;
+        align-items: center;
+        
+        display: inline-flex;
     }
 }
