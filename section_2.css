@@ -3,21 +3,25 @@
     position: relative;
     margin-top: 21%;
     margin-bottom: 5rem;
-    background-color: #fbfbfb;
+    text-align: center;
 }
 
 .section2 h2 {
     color: #173F5F;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
     font-size: 30px;
 }
 
+.section2 .help-text{
+    padding: 0 2rem 2rem 2rem;
+    color: #A6ADB4;
+}
 .section2__content {
     width: 60%;
     display: grid;
     grid-template-columns: 48% 48% 48%;
     grid-gap: 3px;
-    padding: 40px 0px 212px 150px;
+    padding: 0 2rem 0 2rem;
 }
 
 #icon {
@@ -59,7 +63,7 @@ p.section2__text {
         grid-template-columns: 100%;
         grid-gap: 16px;
         justify-items: center;
-        padding: 0;
+       
     }
     .snappy, .affordable_prices, .people_first {
         text-align: center;
@@ -85,7 +89,7 @@ p.section2__text {
         margin: 0;
         width: 100%;
         text-align: center;
-        padding: 0px 2rem 0 2rem;
+        
     }
     .mobile-intro-pattern2 {
         display: block;

@@ -22,11 +22,9 @@ p.intro_text {
 }
 
 .family-picture {
-  position: absolute;
-  left: 800px;
-  top: 125px;
+  
   margin: 0 0 2rem 0;
-  height: 20rem;
+  height: auto;
 }
 
 
@@ -80,7 +78,7 @@ hr .section1_hr {
   }
   .content {
     width: 100%;
-    text-align: center;
+    text-align: left;
     padding-top: 0;
     padding-left: 0;
     order: 2;
@@ -88,23 +86,20 @@ hr .section1_hr {
     /*height: 550px;*/
   }
   h1 {
-    font-size: 48px;
+    font-size: 24px;
     padding: 2rem;
   }
   p.intro_text {
-    text-align: center;
+    text-align: left;
     width: 100%;
     margin: 0 auto;
-    left: 0;
-    right: 0;
-    max-width: 316px;
-    padding-bottom: 44px;
+   padding: 0 2rem 2rem 2rem;
   }
   .content .short_hr {
     display: none;
   }
   
   .content .cta.plans2 {
-    margin-left: 106px;
+    margin-left: 2rem;
   }
 }
