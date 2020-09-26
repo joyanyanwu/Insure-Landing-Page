@@ -1,4 +1,6 @@
-
+.section3{
+    padding: 3rem 1rem;
+}
 
 .section3 .banner_text {
     color: hsl(0, 0%, 98%);
@@ -35,9 +37,32 @@
     right: 80px;
     position: absolute;
 }
-.feature-work .our-work{
-    height: 40rem;
+
+#homepage-slideshow{
+    background-color:#F6EEE8 ;
+    padding: 5rem 1rem 7rem 1rem;
+    text-align: center;
+    position: relative;
 }
+.slideshow-subtitle{
+    padding: 2rem 0 2rem 0;
+    font-size: 0.9rem;
+    color: #A6ADB4;
+}
+
+
+
+.next{
+    right: 1;
+    padding-left: 7rem;
+}
+.mySlides.fade img{
+    margin-top: 4rem;
+}
+/*
+#homepage-slideshow .mySlides.fade{
+    height: 40rem;
+}*/
 .feature-work .our-work h2{
     padding: 7rem 2rem 0.5rem 2rem;
 }
@@ -57,7 +82,7 @@
         justify-content: center;
         width: 100%;
         padding:10rem 0 10rem 0;
-        height: 31rem;
+      
     }
     .section3 .banner_text {
         margin-top: 38px;
